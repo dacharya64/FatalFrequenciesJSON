@@ -1,5 +1,6 @@
 [ 
 	{
+		"tag": "other_peoples_mail",
 		"name": "Other People's Mail", 
 		"type": "filch", 
 		"advance": {

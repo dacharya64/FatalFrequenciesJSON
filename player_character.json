@@ -1,13 +1,7 @@
 {
-	"edges": [1],//can be IDs of edges in edges.json
-	"problems": [1], 
-	"investigative_abilities": [
-		{
-			"name": "accounting", 
-			"description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
-			"type": "academic"
-		}
-	],
+	"edges": ["ice_queen"],//can be IDs of edges in edges.json
+	"problems": ["sucker_for_a_pretty_face"], 
+	"investigative_abilities": ["accounting"],
 	"general_abilities": [
 		{
 			"name": "athletics", 

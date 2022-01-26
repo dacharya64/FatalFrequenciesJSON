@@ -16,7 +16,7 @@
 			"setback": {
 				"effect": "Gain Problem 23, 'Evicted'."
 			},
-			"extra_problem": 5
+			"extra_problem": "fuller_becomes_suspicious"
 		}
 	}
 ]
