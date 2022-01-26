@@ -1,0 +1,21 @@
+{
+	"edges": [1],//can be IDs of edges in edges.json
+	"problems": [1], 
+	"investigative_abilities": [
+		{
+			"name": "accounting", 
+			"description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
+			"type": "academic"
+		}
+	],
+	"general_abilities": [
+		{
+			"name": "athletics", 
+			"type": "physical", 
+			"description": "Athletics allows you to perform general acts of physical derring-do, from running to jumping to throwing bundles of dynamite to dodging oncoming objects.",
+			"skill_value": 1
+		}
+	],
+	"pushes": 4, 
+	"items": []//put ids of items here from items.json
+}
