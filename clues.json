@@ -6,6 +6,6 @@
 	{
 		"description": "(Core, “Fuller’s Electrical Repair”) George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.", 
 		"known": false,
-		"leads_to": "fullers_electrical_repair"//Scene tag
+		"leads_to": "fullers_electrical_repair"
 	}
 ]
