@@ -17,6 +17,6 @@
 		"setback": {
 			"description": "Fuller sees you tip the letter into your handbag. After snatching it back, he roughly escorts you out of the building and threatens to call the police if you set foot inside again. If you have not yet spoken to Charlie Fitzpatrick, she follows you onto the street to see if you know something about George.",
 		},
-		"extra_problem": 5
+		"extra_problem": "fuller_becomes_suspicious"
 	}
 ]
