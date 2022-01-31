@@ -1,13 +1,13 @@
 [
 	{
 		"tag": "someone_in_georges",
-		"description": "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.",
-		"known": false
+		"clue_desc": "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.",
+		"clue_known": false
 	}, 
 	{
 		"tag": "george_works_as",
-		"description": "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.", 
-		"known": false,
-		"leads_to": "fullers_electrical_repair"
+		"clue_desc": "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.", 
+		"clue_known": false,
+		"clue_leads_to": "fullers_electrical_repair"
 	}
 ]
