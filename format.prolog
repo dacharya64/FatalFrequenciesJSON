@@ -34,6 +34,16 @@ scene_characters(sadies_sob_story, sadie_cain).
 
 %%%%%%%%%%%% CLUE INFO %%%%%%%%%%%%%%%
 
-:- dynamic(clue/3).
-clue(someone_in_georges, "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.", false).
-clue(george_went_to, "George went to work the next day, but no one’s seen him since. That was Thursday. He didn’t come to work Friday and wasn’t in his building.", false).
+:- dynamic(clue/1).
+clue(someone_in_georges) 
+
+:- dynamic(clue_desc/2).
+clue_desc(someone_in_georges, "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.").
+clue(george_went_to, "George went to work the next day, but no one’s seen him since. That was Thursday. He didn’t come to work Friday and wasn’t in his building.").
+
+:- dynamic(clue_known/2).
+clue_known(someone_in_georges, false).
+clue_known(george_went_to, false).
+
+:- dynamic(clue_leads_to/2).
+clue_leads_to(george_works_as, fullers_electrical_repair).

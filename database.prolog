@@ -7,7 +7,7 @@
 :- dynamic(scene_clues/2).
 :- dynamic(scene_characters/2).
 
-tag(sadies_sob_story).
+scene(sadies_sob_story).
 name(sadies_sob_story, "Sadie's Sob Story").
 type(sadies_sob_story, introduction).
 player_visited(sadies_sob_story, False).
@@ -19,3 +19,17 @@ description(sadies_sob_story, "Use this as an opportunity to establish Viv’s n
 clues(sadies_sob_story, someone_in_georges).
 clues(sadies_sob_story, george_works_as).
 characters(sadies_sob_story, sadie_cain).
+
+
+:- dynamic(clue/1).
+:- dynamic(clue_desc/2).
+:- dynamic(clue_known/2).
+:- dynamic(clue_leads_to/2).
+
+clue(someone_in_georges).
+description(someone_in_georges, "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.").
+known(someone_in_georges, False).
+clue(george_works_as).
+description(george_works_as, "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.").
+known(george_works_as, False).
+leads_to(george_works_as, fullers_electrical_repair).
