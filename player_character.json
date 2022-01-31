@@ -1,8 +1,8 @@
 {
-	"edges": ["ice_queen"],//can be IDs of edges in edges.json
-	"problems": ["sucker_for_a_pretty_face"], 
-	"investigative_abilities": ["accounting"],
-	"general_abilities": [
+	"player_edges": ["ice_queen"],
+	"player_problems": ["sucker_for_a_pretty_face"], 
+	"player_investigative_abilities": ["accounting"],
+	"player_general_abilities": [
 		{
 			"name": "athletics", 
 			"type": "physical", 
@@ -10,6 +10,6 @@
 			"skill_value": 1
 		}
 	],
-	"pushes": 4, 
-	"items": []
+	"player_pushes": 4, 
+	"player_items": []
 }

@@ -108,11 +108,6 @@ def convert_sources():
 	with open('sources.json') as data_file:
 	    data = json.load(data_file)
 
-	# "source_name": "Annette (Nettie) Rice", 
-	# 	"source_profession": "Professor",
-	# 	"source_description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.", 
-	# 	"source_investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
-
 	# add in the predicate definitions 
 	fWrite.write(":- dynamic(source/1).\n")
 	fWrite.write(":- dynamic(source_name/2).\n")
@@ -143,16 +138,11 @@ def convert_problems():
 	with open('problems.json') as data_file:
 	    data = json.load(data_file)
 
-	# "source_name": "Annette (Nettie) Rice", 
-	# 	"source_profession": "Professor",
-	# 	"source_description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.", 
-	# 	"source_investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
-
 	# add in the predicate definitions 
 	fWrite.write(":- dynamic(problem/1).\n")
 	fWrite.write(":- dynamic(problem_name/2).\n")
 	fWrite.write(":- dynamic(problem_type/2).\n")
-	fWrite.write(":- dynamic(problem_descrption/2).\n")
+	fWrite.write(":- dynamic(problem_description/2).\n")
 	fWrite.write(":- dynamic(problem_effect/2).\n")
 	fWrite.write("\n")
 	# runs through each element in JSON object and extracts the data, writing it to file
@@ -167,7 +157,7 @@ def convert_problems():
 		pred = "problem_type"
 		check_in_item(pred, item)
 
-		pred = "problem_descrption"
+		pred = "problem_description"
 		check_in_item_quotes(pred, item)
 
 		pred = "problem_effect"
@@ -183,5 +173,7 @@ fWrite.write("\n\n")
 convert_sources()
 fWrite.write("\n\n")
 convert_problems()
+fWrite.write("\n\n")
+
 fWrite.close()
 

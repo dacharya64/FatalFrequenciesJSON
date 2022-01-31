@@ -1,6 +1,7 @@
 [
 	{
-		"name": "gun",
+		"tag": "gun",
+		"name": "A Gun",
 		"description": "A gun you got from a friend", 
 		"type": "weapon"
 	}
