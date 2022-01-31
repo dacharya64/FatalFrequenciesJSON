@@ -34,3 +34,35 @@ clue(george_works_as).
 clue_desc(george_works_as, "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.").
 clue_known(george_works_as, False).
 clue_leads_to(george_works_as, fullers_electrical_repair).
+
+
+:- dynamic(source/1).
+:- dynamic(source_name/2).
+:- dynamic(source_profession/2).
+:- dynamic(source_description/2).
+:- dynamic(source_investigative_abilities/2).
+
+source(annette_rice).
+source_name(annette_rice, "Annette (Nettie) Rice").
+source_profession(annette_rice, "Professor").
+source_description(annette_rice, "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.").
+source_investigative_abilities(annette_rice, astronomy).
+source_investigative_abilities(annette_rice, biology).
+source_investigative_abilities(annette_rice, chemistry).
+source_investigative_abilities(annette_rice, languages).
+source_investigative_abilities(annette_rice, physics).
+
+
+:- dynamic(problem/1).
+:- dynamic(problem_name/2).
+:- dynamic(problem_type/2).
+:- dynamic(problem_descrption/2).
+:- dynamic(problem_effect/2).
+
+problem(sucker_for_a_pretty_face).
+problem_name(sucker_for_a_pretty_face, "Sucker for a Pretty Face").
+problem_type(sucker_for_a_pretty_face, continuity).
+problem(wrenched_ankle).
+problem_name(wrenched_ankle, "Wrenched Ankle").
+problem_descrption(wrenched_ankle, "You pulled something in your foot.").
+problem_effect(wrenched_ankle, "-2 on your next Athletics, Fighting, or other General/Physical test or Take Time and then discard this Problem").

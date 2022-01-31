@@ -1,14 +1,14 @@
 [
 	{
 		"tag": "sucker_for_a_pretty_face",
-		"name": "Sucker for a Pretty Face",
-		"type": "continuity",
-		"description": "You change lovers as frequently as clothes.", 
+		"problem_name": "Sucker for a Pretty Face",
+		"problem_type": "continuity",
+		"problem_description": "You change lovers as frequently as clothes."
 	},
 	{
 		"tag": "wrenched_ankle",
-		"name": "Wrenched Ankle",
-		"descrption": "You pulled something in your foot.", 
-		"effect": "-2 on your next Athletics, Fighting, or other General/Physical test or Take Time and then discard this Problem"
+		"problem_name": "Wrenched Ankle",
+		"problem_descrption": "You pulled something in your foot.", 
+		"problem_effect": "-2 on your next Athletics, Fighting, or other General/Physical test or Take Time and then discard this Problem"
 	}
 ]
