@@ -56,13 +56,35 @@ source_investigative_abilities(annette_rice, physics).
 :- dynamic(problem/1).
 :- dynamic(problem_name/2).
 :- dynamic(problem_type/2).
-:- dynamic(problem_descrption/2).
+:- dynamic(problem_description/2).
 :- dynamic(problem_effect/2).
 
 problem(sucker_for_a_pretty_face).
 problem_name(sucker_for_a_pretty_face, "Sucker for a Pretty Face").
 problem_type(sucker_for_a_pretty_face, continuity).
+problem_description(sucker_for_a_pretty_face, "You change lovers as frequently as clothes.").
 problem(wrenched_ankle).
 problem_name(wrenched_ankle, "Wrenched Ankle").
-problem_descrption(wrenched_ankle, "You pulled something in your foot.").
 problem_effect(wrenched_ankle, "-2 on your next Athletics, Fighting, or other General/Physical test or Take Time and then discard this Problem").
+
+
+:- dynamic(item/1).
+:- dynamic(item_name/2).
+:- dynamic(item_description/2).
+:- dynamic(item_type/2).
+
+item(gun).
+item_name(gun, "A Gun").
+item_description(gun, "A gun you got from a friend").
+item_type(gun, weapon).
+
+
+:- dynamic(edge/1).
+:- dynamic(edge_name/2).
+:- dynamic(edge_description/2).
+:- dynamic(edge_effect/2).
+
+edge(ice_queen).
+edge_name(ice_queen, "Ice Queen").
+edge_description(ice_queen, "You're getting better at prioritizing things that matter.").
+edge_effect(ice_queen, "Spend to get an extra die on Cool or Stability or a +2 on a General/Mental test, then discard").

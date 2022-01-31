@@ -163,6 +163,58 @@ def convert_problems():
 		pred = "problem_effect"
 		check_in_item_quotes(pred, item)
 
+def convert_items():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('items.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(item/1).\n")
+	fWrite.write(":- dynamic(item_name/2).\n")
+	fWrite.write(":- dynamic(item_description/2).\n")
+	fWrite.write(":- dynamic(item_type/2).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	for item in data:
+		pred = "tag" 
+		global tag 
+		tag = check_in_item_tag(pred, item, "item")
+		
+		pred = "item_name"
+		check_in_item_quotes(pred, item)
+
+		pred = "item_description"
+		check_in_item_quotes(pred, item)
+
+		pred = "item_type"
+		check_in_item(pred, item)
+
+def convert_edges():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('edges.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(edge/1).\n")
+	fWrite.write(":- dynamic(edge_name/2).\n")
+	fWrite.write(":- dynamic(edge_description/2).\n")
+	fWrite.write(":- dynamic(edge_effect/2).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	for item in data:
+		pred = "tag" 
+		global tag 
+		tag = check_in_item_tag(pred, item, "edge")
+		
+		pred = "edge_name"
+		check_in_item_quotes(pred, item)
+
+		pred = "edge_description"
+		check_in_item_quotes(pred, item)
+
+		pred = "edge_effect"
+		check_in_item_quotes(pred, item)
+
 tag = ""
 # file to which we will be writing 
 fWrite = open('database.prolog', 'w')
@@ -174,6 +226,8 @@ convert_sources()
 fWrite.write("\n\n")
 convert_problems()
 fWrite.write("\n\n")
-
+convert_items()
+fWrite.write("\n\n")
+convert_edges()
 fWrite.close()
 
