@@ -4,7 +4,6 @@
 		"name": "Sadie's Sob Story",
 		"type": "introduction",
 		"player_visited": false,
-		"lead-ins": [],
 		"lead-outs": [
     		"what_the_cops_know",
     		"fullers_electrical_repair",
@@ -15,7 +14,6 @@
 			"Use this as an opportunity to establish Viv’s newsroom and how she meets with interested parties. Does she have the receptionist send them up to her desk in a smoky room full of (mostly) men bent over typewriters and paper-strewn desks? Or does she meet with her Sources and sometime- clients in another location, such as a restaurant across the street? Have the player take a moment to describe something important that Viv keeps at her desk in the newsroom, or her regular order at the restaurant."
 		],
 		"clues": ["someone_in_georges", "george_works_as"], 
-		"characters": ["sadie_cain"],
-		"challenges": []
+		"characters": ["sadie_cain"]
 	}
 ]
