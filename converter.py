@@ -309,15 +309,63 @@ def convert_investigative_abilities():
 	    data = json.load(data_file)
 
 	# add in the predicate definitions 
-	fWrite.write(":- dynamic(investigative_ability/3).\n")
+	fWrite.write(":- dynamic(investigative_ability/4).\n")
 	fWrite.write("\n")
 	# runs through each element in JSON object and extracts the data, writing it to file
 	for item in data:
 		pred = "tag" 
 		global tag 
 
-		result_string = "investigative_ability(" + str(item["tag"]) + ", \"" + str(item["investigative_ability_description"]) + "\", " + str(item["investigative_ability_type"]) + ")."
+		result_string = "investigative_ability(" + str(item["tag"]) + ", \"" +  str(item["investigative_ability_name"]) + "\", \"" + str(item["investigative_ability_description"]) + "\", " + str(item["investigative_ability_type"]) + ")."
 		fWrite.write( result_string + "\n")
+
+def convert_general_abilities():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('general_abilities.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(general_ability/5).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	for item in data:
+		pred = "tag" 
+		global tag 
+
+		result_string = "general_ability(" + str(item["tag"]) + ", \"" +  str(item["general_ability_name"]) + "\", \"" + str(item["general_ability_description"]) + "\", " + str(item["general_ability_type"]) + ", " + str(item["general_ability_skill_value"]) + ")."
+		fWrite.write(result_string + "\n")
+
+def convert_player_character():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('player_character.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(player_edge/1).\n")
+	fWrite.write(":- dynamic(player_problem/1).\n")
+	fWrite.write(":- dynamic(player_investigative_ability/1).\n")
+	fWrite.write(":- dynamic(player_general_ability/2).\n")
+	fWrite.write(":- dynamic(player_pushes/1).\n")
+	fWrite.write(":- dynamic(player_item/1).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	
+	for item in data["player_edge"]: 
+		fWrite.write("player_edge(" + item + ").\n")
+
+	for item in data["player_problem"]: 
+		fWrite.write("player_problem(" + item + ").\n")
+
+	for item in data["player_investigative_ability"]: 
+		fWrite.write("player_investigative_ability(" + item + ").\n")
+
+	for item in data["player_general_ability"]: 
+		fWrite.write("player_general_ability(" + item + ").\n")
+
+	fWrite.write("player_pushes(" + str(data["player_pushes"]) + ").\n")
+
+	for item in data["player_item"]: 
+		fWrite.write("player_item(" + str(item) + ").\n")
 
 
 def add_front_matter(): 
@@ -346,5 +394,9 @@ fWrite.write("\n\n")
 convert_characters()
 fWrite.write("\n\n")
 convert_investigative_abilities()
+fWrite.write("\n\n")
+convert_general_abilities()
+fWrite.write("\n\n")
+convert_player_character()
 fWrite.close()
 

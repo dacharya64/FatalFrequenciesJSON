@@ -124,6 +124,26 @@ character_knows(sadie_cain, george_preston).
 character_relationship_with(sadie_cain, george_preston, married, positive).
 
 
-:- dynamic(investigative_ability/3).
+:- dynamic(investigative_ability/4).
 
-investigative_ability(accounting, "You understand bookkeeping and accountancy procedures; you can read and keep financial records.", academic).
+investigative_ability(accounting, "Accounting", "You understand bookkeeping and accountancy procedures; you can read and keep financial records.", academic).
+
+
+:- dynamic(general_ability/5).
+
+general_ability(athletics, "Athletics", "Athletics allows you to perform general acts of physical derring-do, from running to jumping to throwing bundles of dynamite to dodging oncoming objects.", physical, 1).
+
+
+:- dynamic(player_edge/1).
+:- dynamic(player_problem/1).
+:- dynamic(player_investigative_ability/1).
+:- dynamic(player_general_ability/2).
+:- dynamic(player_pushes/1).
+:- dynamic(player_item/1).
+
+player_edge(ice_queen).
+player_problem(sucker_for_a_pretty_face).
+player_investigative_ability(accounting).
+player_investigative_ability(assess_honesty).
+player_general_ability(athletics).
+player_pushes(4).

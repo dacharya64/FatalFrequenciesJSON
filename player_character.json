@@ -1,15 +1,8 @@
 {
-	"player_edges": ["ice_queen"],
-	"player_problems": ["sucker_for_a_pretty_face"], 
-	"player_investigative_abilities": ["accounting"],
-	"player_general_abilities": [
-		{
-			"name": "athletics", 
-			"type": "physical", 
-			"description": "Athletics allows you to perform general acts of physical derring-do, from running to jumping to throwing bundles of dynamite to dodging oncoming objects.",
-			"skill_value": 1
-		}
-	],
+	"player_edge": ["ice_queen"],
+	"player_problem": ["sucker_for_a_pretty_face"], 
+	"player_investigative_ability": ["accounting", "assess_honesty"],
+	"player_general_ability": ["athletics"],
 	"player_pushes": 4, 
-	"player_items": []
+	"player_item": []
 }
