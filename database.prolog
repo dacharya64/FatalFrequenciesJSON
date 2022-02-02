@@ -122,3 +122,8 @@ character_name(sadie_cain, "Sadie Cain").
 character_goal(sadie_cain, "Find missing husband").
 character_knows(sadie_cain, george_preston).
 character_relationship_with(sadie_cain, george_preston, married, positive).
+
+
+:- dynamic(investigative_ability/3).
+
+investigative_ability(accounting, "You understand bookkeeping and accountancy procedures; you can read and keep financial records.", academic).

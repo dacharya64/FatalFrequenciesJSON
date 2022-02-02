@@ -303,6 +303,22 @@ def convert_characters():
 		pred = "character_relationship_with"
 		check_in_item_arr_obj(pred, item)
 
+def convert_investigative_abilities():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('investigative_abilities.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(investigative_ability/3).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	for item in data:
+		pred = "tag" 
+		global tag 
+
+		result_string = "investigative_ability(" + str(item["tag"]) + ", \"" + str(item["investigative_ability_description"]) + "\", " + str(item["investigative_ability_type"]) + ")."
+		fWrite.write( result_string + "\n")
+
 
 def add_front_matter(): 
 	fWrite.write(":- set_prolog_flag(double_quotes, atom).\n")
@@ -328,5 +344,7 @@ fWrite.write("\n\n")
 convert_challenges()
 fWrite.write("\n\n")
 convert_characters()
+fWrite.write("\n\n")
+convert_investigative_abilities()
 fWrite.close()
 
