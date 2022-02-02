@@ -109,3 +109,16 @@ challenge_advance(other_peoples_mail, "4", "You successfully purloin the letter.
 challenge_hold(other_peoples_mail, "2", "3", "As your fingers brush the edge of the letter, Fuller makes eye contact and his eyes begin to move downward. If you decide to play it off by deliberately noticing the letter’s address, you may spend a Push to convince him you’ll give the letter to Preston’s fiancée. He demurs to this suggestion, but may later change his mind. Grants access to alternate scene 'The Psychical Investigator'.").
 challenge_setback(other_peoples_mail, "Fuller sees you tip the letter into your handbag. After snatching it back, he roughly escorts you out of the building and threatens to call the police if you set foot inside again. If you have not yet spoken to Charlie Fitzpatrick, she follows you onto the street to see if you know something about George.").
 challenge_extra_problem(other_peoples_mail, fuller_becomes_suspicious).
+
+
+:- dynamic(character/1).
+:- dynamic(character_name/2).
+:- dynamic(character_goal/2).
+:- dynamic(character_knows/2).
+:- dynamic(character_relationship_with/4).
+
+character(sadie_cain).
+character_name(sadie_cain, "Sadie Cain").
+character_goal(sadie_cain, "Find missing husband").
+character_knows(sadie_cain, george_preston).
+character_relationship_with(sadie_cain, george_preston, married, positive).
