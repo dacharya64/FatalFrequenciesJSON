@@ -1,3 +1,7 @@
+:- set_prolog_flag(double_quotes, atom).
+current_prolog_flag(character_escapes, true).
+
+
 :- dynamic(scene/1).
 :- dynamic(scene_name/2).
 :- dynamic(scene_type/2).
@@ -88,3 +92,20 @@ edge(ice_queen).
 edge_name(ice_queen, "Ice Queen").
 edge_description(ice_queen, "You're getting better at prioritizing things that matter.").
 edge_effect(ice_queen, "Spend to get an extra die on Cool or Stability or a +2 on a General/Mental test, then discard").
+
+
+:- dynamic(challenge/1).
+:- dynamic(challenge_name/2).
+:- dynamic(challenge_type/2).
+:- dynamic(challenge_advance/3).
+:- dynamic(challenge_hold/4).
+:- dynamic(challenge_setback/2).
+:- dynamic(challenge_extra_problem/2).
+
+challenge(other_peoples_mail).
+challenge_name(other_peoples_mail, "Other People's Mail").
+challenge_type(other_peoples_mail, "filch").
+challenge_advance(other_peoples_mail, "4", "You successfully purloin the letter. Grants access to alternate scene 'The Psychical Investigator'.").
+challenge_hold(other_peoples_mail, "2", "3", "As your fingers brush the edge of the letter, Fuller makes eye contact and his eyes begin to move downward. If you decide to play it off by deliberately noticing the letter’s address, you may spend a Push to convince him you’ll give the letter to Preston’s fiancée. He demurs to this suggestion, but may later change his mind. Grants access to alternate scene 'The Psychical Investigator'.").
+challenge_setback(other_peoples_mail, "Fuller sees you tip the letter into your handbag. After snatching it back, he roughly escorts you out of the building and threatens to call the police if you set foot inside again. If you have not yet spoken to Charlie Fitzpatrick, she follows you onto the street to see if you know something about George.").
+challenge_extra_problem(other_peoples_mail, fuller_becomes_suspicious).

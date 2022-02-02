@@ -15,6 +15,15 @@ def check_in_item_arr(pred, item):
 		array = item[pred]
 		for subitem in array: 
 			fWrite.write( pred + "(" + tag + ", " + str(subitem) + ").\n")
+
+def check_in_item_obj(pred, item): 
+	if pred in item:
+		obj = item[pred]
+		result_string = pred + "(" + tag
+		for subitem in obj: 
+			result_string = result_string + ", \"" +  str(obj[subitem]) + "\""
+		result_string = result_string + ").\n"
+		fWrite.write(result_string)
 		
 
 def check_in_item_quotes(pred, item): 
@@ -215,9 +224,54 @@ def convert_edges():
 		pred = "edge_effect"
 		check_in_item_quotes(pred, item)
 
+def convert_challenges():
+	# opens the JSON file with the data and saves it to a JSON object
+	with open('challenges.json') as data_file:
+	    data = json.load(data_file)
+
+	# add in the predicate definitions 
+	fWrite.write(":- dynamic(challenge/1).\n")
+	fWrite.write(":- dynamic(challenge_name/2).\n")
+	fWrite.write(":- dynamic(challenge_type/2).\n")
+	fWrite.write(":- dynamic(challenge_advance/3).\n")
+	fWrite.write(":- dynamic(challenge_hold/4).\n")
+	fWrite.write(":- dynamic(challenge_setback/2).\n")
+	fWrite.write(":- dynamic(challenge_extra_problem/2).\n")
+	fWrite.write("\n")
+	# runs through each element in JSON object and extracts the data, writing it to file
+	for item in data:
+		pred = "tag" 
+		global tag 
+		tag = check_in_item_tag(pred, item, "challenge")
+		
+		pred = "challenge_name"
+		check_in_item_quotes(pred, item)
+
+		pred = "challenge_type"
+		check_in_item_quotes(pred, item)
+
+		pred = "challenge_advance"
+		check_in_item_obj(pred, item)
+
+		pred = "challenge_hold"
+		check_in_item_obj(pred, item)
+
+		pred = "challenge_setback"
+		check_in_item_obj(pred, item)
+
+		pred = "challenge_extra_problem"
+		check_in_item(pred, item)
+
+
+def add_front_matter(): 
+	fWrite.write(":- set_prolog_flag(double_quotes, atom).\n")
+	fWrite.write("current_prolog_flag(character_escapes, true).\n")
+
 tag = ""
 # file to which we will be writing 
 fWrite = open('database.prolog', 'w')
+add_front_matter()
+fWrite.write("\n\n")
 convert_scenes()
 fWrite.write("\n\n")
 convert_clues()
@@ -230,5 +284,6 @@ convert_items()
 fWrite.write("\n\n")
 convert_edges()
 fWrite.write("\n\n")
+convert_challenges()
 fWrite.close()
 
