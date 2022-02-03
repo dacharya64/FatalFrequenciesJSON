@@ -15,7 +15,7 @@ current_prolog_flag(character_escapes, true).
 scene(sadies_sob_story).
 scene_name(sadies_sob_story, "Sadie's Sob Story").
 scene_type(sadies_sob_story, introduction).
-scene_visited(sadies_sob_story, False).
+scene_visited(sadies_sob_story, false).
 scene_lead_outs(sadies_sob_story, what_the_cops_know).
 scene_lead_outs(sadies_sob_story, fullers_electrical_repair).
 scene_lead_outs(sadies_sob_story, the_peculiar_death_of_myron_fink).
@@ -33,10 +33,10 @@ scene_characters(sadies_sob_story, sadie_cain).
 
 clue(someone_in_georges).
 clue_desc(someone_in_georges, "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.").
-clue_known(someone_in_georges, False).
+clue_known(someone_in_georges, false).
 clue(george_works_as).
 clue_desc(george_works_as, "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.").
-clue_known(george_works_as, False).
+clue_known(george_works_as, false).
 clue_leads_to(george_works_as, fullers_electrical_repair).
 
 
@@ -58,16 +58,19 @@ source_investigative_abilities(annette_rice, physics).
 
 
 :- dynamic(problem/1).
+:- dynamic(problem_number/2).
 :- dynamic(problem_name/2).
 :- dynamic(problem_type/2).
 :- dynamic(problem_description/2).
 :- dynamic(problem_effect/2).
 
 problem(sucker_for_a_pretty_face).
+problem_number(sucker_for_a_pretty_face, 1).
 problem_name(sucker_for_a_pretty_face, "Sucker for a Pretty Face").
 problem_type(sucker_for_a_pretty_face, continuity).
 problem_description(sucker_for_a_pretty_face, "You change lovers as frequently as clothes.").
 problem(wrenched_ankle).
+problem_number(wrenched_ankle, 8).
 problem_name(wrenched_ankle, "Wrenched Ankle").
 problem_effect(wrenched_ankle, "-2 on your next Athletics, Fighting, or other General/Physical test or Take Time and then discard this Problem").
 
@@ -84,11 +87,13 @@ item_type(gun, weapon).
 
 
 :- dynamic(edge/1).
+:- dynamic(edge_number/2).
 :- dynamic(edge_name/2).
 :- dynamic(edge_description/2).
 :- dynamic(edge_effect/2).
 
 edge(ice_queen).
+edge_number(ice_queen, 1).
 edge_name(ice_queen, "Ice Queen").
 edge_description(ice_queen, "You're getting better at prioritizing things that matter.").
 edge_effect(ice_queen, "Spend to get an extra die on Cool or Stability or a +2 on a General/Mental test, then discard").

@@ -10,6 +10,13 @@ def check_in_item(pred, item):
 	if pred in item:
 		fWrite.write( pred + "(" + tag + ", " + str(item[pred]) + ").\n")
 
+def check_in_item_bool(pred, item): 
+	if pred in item:
+		if (item[pred] == False):  
+			fWrite.write( pred + "(" + tag + ", false).\n")
+		else: 
+			fWrite.write( pred + "(" + tag + ", true).\n")
+
 def check_in_item_arr(pred, item): 
 	if pred in item:
 		array = item[pred]
@@ -77,7 +84,7 @@ def convert_scenes():
 		check_in_item(pred, item)
 
 		pred = "scene_visited"
-		check_in_item(pred, item)
+		check_in_item_bool(pred, item)
 
 		pred = "scene_lead_ins"
 		check_in_item_arr(pred, item)
@@ -118,7 +125,7 @@ def convert_clues():
 		check_in_item_quotes(pred, item)
 
 		pred = "clue_known"
-		check_in_item(pred, item)
+		check_in_item_bool(pred, item)
 
 		pred = "clue_leads_to"
 		check_in_item(pred, item)
@@ -160,6 +167,7 @@ def convert_problems():
 
 	# add in the predicate definitions 
 	fWrite.write(":- dynamic(problem/1).\n")
+	fWrite.write(":- dynamic(problem_number/2).\n")
 	fWrite.write(":- dynamic(problem_name/2).\n")
 	fWrite.write(":- dynamic(problem_type/2).\n")
 	fWrite.write(":- dynamic(problem_description/2).\n")
@@ -170,6 +178,9 @@ def convert_problems():
 		pred = "tag" 
 		global tag 
 		tag = check_in_item_tag(pred, item, "problem")
+
+		pred = "problem_number"
+		check_in_item(pred, item)
 		
 		pred = "problem_name"
 		check_in_item_quotes(pred, item)
@@ -216,6 +227,7 @@ def convert_edges():
 
 	# add in the predicate definitions 
 	fWrite.write(":- dynamic(edge/1).\n")
+	fWrite.write(":- dynamic(edge_number/2).\n")
 	fWrite.write(":- dynamic(edge_name/2).\n")
 	fWrite.write(":- dynamic(edge_description/2).\n")
 	fWrite.write(":- dynamic(edge_effect/2).\n")
@@ -225,6 +237,9 @@ def convert_edges():
 		pred = "tag" 
 		global tag 
 		tag = check_in_item_tag(pred, item, "edge")
+
+		pred = "edge_number"
+		check_in_item(pred, item)
 		
 		pred = "edge_name"
 		check_in_item_quotes(pred, item)
