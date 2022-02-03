@@ -15,5 +15,9 @@
 		],
 		"scene_clues": ["someone_in_georges", "george_works_as"], 
 		"scene_characters": ["sadie_cain"]
+	},
+	{
+		"tag": "fullers_electrical_repair",
+		"scene_name": "Fuller's Electrical Repair"
 	}
 ]
