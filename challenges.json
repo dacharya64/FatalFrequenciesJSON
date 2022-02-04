@@ -16,5 +16,22 @@
 			"description": "Fuller sees you tip the letter into your handbag. After snatching it back, he roughly escorts you out of the building and threatens to call the police if you set foot inside again. If you have not yet spoken to Charlie Fitzpatrick, she follows you onto the street to see if you know something about George."
 		},
 		"challenge_extra_problem": "fuller_becomes_suspicious"
+	},
+	{
+		"tag": "antagonist_reaction_1_challenge",
+		"challenge_type": "cool",
+		"challenge_advance": {
+			"threshold": 6,  
+			"description": "Gain Edge 11, 'Good Citizen'."
+		},
+		"challenge_hold": {
+			"lower_threshold": 2,
+			"upper_threshold": 5,
+			"description": "They accept her argument, but give her the cold shoulder for a few days"
+		},
+		"challenge_setback": {
+			"description": "Gain Problem 23, 'Evicted'."
+		},
+		"challenge_extra_problem": "no_good_deed"
 	}
 ]
