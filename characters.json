@@ -1,10 +1,10 @@
 [
 	{
 		"tag": "sadie_cain", 
-		"character_name": "Sadie Cain", 
-		"character_goal": "Find missing husband", 
-		"character_knows": ["george_preston"], 
-		"character_relationship_with": [
+		"name": "Sadie Cain", 
+		"goal": "Find missing husband", 
+		"knows": ["george_preston"], 
+		"relationship_with": [
 			{
 				"character": "george_preston",
 				"relationship": "married",

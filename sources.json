@@ -1,9 +1,9 @@
 [
 	{
 		"tag": "annette_rice", 
-		"source_name": "Annette (Nettie) Rice", 
-		"source_profession": "Professor",
-		"source_description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.", 
-		"source_investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
+		"name": "Annette (Nettie) Rice", 
+		"profession": "Professor",
+		"description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.", 
+		"investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
 	}
 ]

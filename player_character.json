@@ -1,11 +1,11 @@
 {
-	"player_edge": ["ice_queen"],
-	"player_problem": ["sucker_for_a_pretty_face"], 
-	"player_investigative_ability": ["accounting", "assess_honesty"],
-	"player_general_ability": 
+	"edges": ["ice_queen"],
+	"problems": ["sucker_for_a_pretty_face"], 
+	"investigative_abilities": ["accounting", "assess_honesty"],
+	"general_abilities": 
 		{
 			"athletics": 1
 		},
-	"player_pushes": 4, 
-	"player_item": []
+	"pushes": 4, 
+	"items": []
 }
