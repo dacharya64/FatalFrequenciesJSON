@@ -98,5 +98,35 @@
 		"description": "Research: In the newsroom’s archives, the only stories Viv can find about Fuller involve a 1929 lawsuit in which a competitor charged him with monopolistic practices. The competitor folded in the aftermath of the Crash, and dropped the suit.",
 		"known": false, 
 		"investigative_ability": "research"
+	},
+	{
+		"tag": "she_always_thought", 
+		"description": "She always thought George different from the other boys. Bit of a dreamer. Sometimes used to just stare off into space. Why, one time she thought she saw him squinting as though he were trying to see something just out of view.",
+		"known": false, 
+		"from_specific_question": false,
+	},
+	{
+		"tag": "yes_george_worked",
+		"description": "Yes, George worked on a machine after hours. Several of the boys have pet projects, and Mr. Fuller kindly lets them use his space.",
+		"known": false, 
+		"from_specific_question": false,
+	}, 
+	{
+		"tag": "she_doesnt_know", 
+		"description": "She doesn’t know about George’s device. Oh, but Richard was trying to build a bicycle-powered electric washer because his mother’s farm doesn’t yet have electricity. Something about generators. She thought that sounded very practical.",
+		"known": false, 
+		"from_specific_question": false
+	},
+	{
+		"tag": "georges_looked_more", 
+		"description": "George’s looked more like a phonograph, or perhaps a projector like at the movies.",
+		"known": false, 
+		"from_specific_question": false
+	}, 
+	{
+		"tag": "no_he_must", 
+		"description": "No, he must have taken it with him because it’s not here now.", 
+		"known": false, 
+		"from_specific_question": false
 	}
 ]

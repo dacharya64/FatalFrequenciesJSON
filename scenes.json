@@ -4,11 +4,7 @@
 		"name": "Sadie's Sob Story",
 		"type": "introduction",
 		"visited": false,
-		"lead_outs": [
-    		"what_the_cops_know",
-    		"fullers_electrical_repair",
-    		"the_peculiar_death_of_myron_fink"
-		],
+		"lead_outs": ["what_the_cops_know", "fullers_electrical_repair", "the_peculiar_death_of_myron_fink"],
 		"description": [
 			"The scenario starts off for Vivian Sinclair on a Monday morning after she’s turned in her most recent story. Invite the player to describe it, if she likes. She may rest on her laurels and joke around with the guys in the Herald Tribune’s newsroom, or she may already be scouring a pile of newspaper clippings and notes for her next lead. Around 9 a.m., she gets a telephone call from downstairs.",
 			"Use this as an opportunity to establish Viv’s newsroom and how she meets with interested parties. Does she have the receptionist send them up to her desk in a smoky room full of (mostly) men bent over typewriters and paper-strewn desks? Or does she meet with her Sources and sometime- clients in another location, such as a restaurant across the street? Have the player take a moment to describe something important that Viv keeps at her desk in the newsroom, or her regular order at the restaurant.",
@@ -24,6 +20,16 @@
 	},
 	{
 		"tag": "fullers_electrical_repair",
-		"name": "Fuller's Electrical Repair"
+		"name": "Fuller's Electrical Repair",
+		"type": "core", 
+		"visited": false, 
+		"lead_ins": ["sadies_sob_story"],
+		"lead_outs": ["fuller_himself", "charming_charlie"],
+		"description": [
+			"Several blocks north of Fulton, the main business street of downtown Brooklyn, Fuller’s Electrical Repair occupies a two-story brick warehouse. Whether visiting Fuller or Fitzpatrick first, when Viv approaches Fuller’s, she sees a small crowd of men waiting outside. Even in the city, work for electricians comes in piecemeal and more infrequently as the Depression worsens. A job with Fuller’s guarantees a steady meal ticket. Once word got out that one of Fuller’s employees has gone AWOL, several dozen men began lingering outside the shop in hopes of catching the big man’s attention when he steps outside. If Viv stops to listen to the men talk, she learns that, the last few days, Fuller has asked one or two men to show him their skills. He must have high standards, however, as those men haven’t come back.",
+			"Apart from a tidy desk in the front, the inside of Fuller’s reflects its warehouse origins. A small mezzanine office, accessible by iron staircase and walkway, sits on top of a storage room at the back. On the high-ceilinged main floor, a dozen men work at individual benches over an assortment of smaller items (radios, sewing machines, irons) and a few large appliances (refrigerators, vacuum cleaners, washing machines). Most don’t look up, but one or two glance her way. If Viv asks about Charlie Fitzpatrick immediately, a nearby worker indicates a shorter, broad-shouldered figure in a cap working near the back of the room. Otherwise, Mr. Fuller’s secretary, Petunia Adams, comes bustling forward to meet her. A well-scrubbed young woman of about 25 in a sensible cotton print frock, Petunia maintains an immaculate bun and an all-business attitude “to keep the boys at bay.” She considers herself a kind of “den mother” to the “boys” in the shop, even those a decade older than herself."
+		],
+		"clues": ["she_always_thought", "yes_george_worked", "she_doesnt_know", "georges_looked_more", "no_he_must"], 
+		"characters": ["petunia_adams"]
 	}
 ]
