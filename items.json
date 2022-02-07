@@ -1,8 +1,8 @@
 [
 	{
-		"tag": "gun",
-		"item_name": "A Gun",
-		"item_description": "A gun you got from a friend", 
-		"item_type": "weapon"
+		"tag": "photo_of_george",
+		"name": "A photograph of George Preston",
+		"description": "A photograph of George Preston, a gangling young man with light hair and eyes", 
+		"type": "photograph"
 	}
 ]

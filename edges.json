@@ -1,9 +1,9 @@
 [
 	{
 		"tag": "ice_queen",
-		"edge_number": 1,
-		"edge_name": "Ice Queen",
-		"edge_description": "You're getting better at prioritizing things that matter.", 
-		"edge_effect": "Spend to get an extra die on Cool or Stability or a +2 on a General/Mental test, then discard"
+		"number": 1,
+		"name": "Ice Queen",
+		"description": "You're getting better at prioritizing things that matter.", 
+		"effect": "Spend to get an extra die on Cool or Stability or a +2 on a General/Mental test, then discard"
 	}
 ]

@@ -1,8 +1,8 @@
 [
 	{
 			"tag": "accounting", 
-			"investigative_ability_name": "Accounting",
-			"investigative_ability_description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
-			"investigative_ability_type": "academic"
+			"name": "Accounting",
+			"description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
+			"type": "academic"
 	}
 ]

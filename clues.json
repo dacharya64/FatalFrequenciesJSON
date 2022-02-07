@@ -2,12 +2,101 @@
 	{
 		"tag": "someone_in_georges",
 		"description": "Someone in George’s apartment building was murdered the day before he disappeared. She gives an address and third-story apartment number near the Brooklyn Navy Yard.",
-		"known": false
+		"known": false,
+		"from_specific_question": false
 	}, 
+	{
+		"tag": "george_went_to",
+		"description": "George went to work the next day, but no one’s seen him since. That was Thursday. He didn’t come to work Friday and wasn’t in his building.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "she_didnt_learn", 
+		"description": "She didn’t learn any of this until the police tore her place apart on Saturday, then came to her work and grilled her about George and where he might have gone. She’s been looking for him ever since.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "as_nobody_important",
+		"description": "As “nobody important, just a garment worker... or I was until the police told the floor manager my fiancé was a murderer” Sadie doesn’t have the money to hire one of those private investigators.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "vivs_encountered_types",
+		"description": "Assess Honesty: Viv’s encountered types who try to get their loved ones a trial in the press before it ever goes to court. Most of the time, they know the guy did it. This girl seems utterly convinced of her fiancé’s innocence.",
+		"known": false, 
+		"investigative_ability": "assess_honesty"
+	},
+	{
+		"tag": "the_police_rarely", 
+		"description": "Streetwise: The police rarely care about getting the right guy when both victim and suspect come from the lower strata. If this case looks open and shut to them, they’ll arrest George as soon as they find him and call it a day.",
+		"known": false, 
+		"investigative_ability": "streetwise"
+	},
+	{
+		"tag": "she_met_george",
+		"description": "She met George at the New York Public Library. She loves George because she found him entirely different from your ordinary Joe. He read books about the human brain and the spirit world and all kinds of things. He thought a lot. George would have gone to college, only his family couldn’t afford it.",
+		"known": false, 
+		"from_specific_question": true
+	},
 	{
 		"tag": "george_works_as",
 		"description": "(Core, 'Fuller’s Electrical Repair') George works as an electrical repairman at Fuller’s Electrical Repair, just a couple blocks north of Fulton Street in downtown Brooklyn.", 
 		"known": false,
+		"from_specific_question": true,
 		"leads_to": "fullers_electrical_repair"
+	},
+	{
+		"tag": "sadie_admits_she",
+		"description": "Sadie admits she doesn’t see George every night, which the police took to mean he two- times her. They just don’t understand George. Someday you’ll hear about him as a famous inventor. At night, he works on building his machine and Mr. Fuller lets him use the workbench. Some nights, he comes by her place but others he works so late that he just sleeps at the shop. She mostly sees him on weekends.",
+		"known": false, 
+		"from_specific_question": true
+	},
+	{
+		"tag": "george_was_on",
+		"description": "George was on the verge of an amazing breakthrough: a machine that was going to change everything. If asked what the machine does, Sadie falters. George never actually told her; he said she’d have to see for herself.",
+		"known": false, 
+		"from_specific_question": true
+	},
+	{
+		"tag": "george_didnt_have",
+		"description": "(Core, “Charming Charlie”) George didn’t have a lot of friends, but he grew up with one of his coworkers — Charlie Fitzpatrick. As kids, they’d planned to travel the world together.",
+		"known": false, 
+		"from_specific_question": true, 
+		"leads_to": "charming_charlie"
+	},
+	{
+		"tag": "george_rents_a", 
+		"description": "Core, “The Peculiar Death of Myron Fink”) George rents a one-room apartment in one of the decrepit older buildings up by the Navy Yard. “Just until we have enough money for one of the nicer new apartments.” The landlord, Mr. Simpson, won’t let her into his room.",
+		"known": false, 
+		"from_specific_question": true, 
+		"leads_to": "the_peculiar_death_of_myron_fink"
+	},
+	{
+		"tag": "everyone_persecuted_george",
+		"description": "Everyone persecuted George just for coming from a poor family, but he was going to make something of himself, Sadie knows it.",
+		"known": false, 
+		"from_specific_question": true
+	},
+	{
+		"tag": "if_asked_she",
+		"description": "If asked, she produces a photograph of a gangling young man with light hair and eyes, but seems reluctant to let it go. He seems to look at something beyond the photographer.",
+		"known": false, 
+		"from_specific_question": true
+	},
+	{
+		"tag": "the_police_questioned", 
+		"description": "(Alternate, “What the Cops Know”) The police questioned her several times, but all she knows is what they told her — someone in George’s building got killed. And they insist George did it.",
+		"known": false, 
+		"from_specific_question": true, 
+		"leads_to": "what_the_cops_know"
+	},
+	{
+		"tag": "in_the_newsroom", 
+		"description": "Research: In the newsroom’s archives, the only stories Viv can find about Fuller involve a 1929 lawsuit in which a competitor charged him with monopolistic practices. The competitor folded in the aftermath of the Crash, and dropped the suit.",
+		"known": false, 
+		"investigative_ability": "research"
 	}
 ]

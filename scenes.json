@@ -11,9 +11,15 @@
 		],
 		"description": [
 			"The scenario starts off for Vivian Sinclair on a Monday morning after she’s turned in her most recent story. Invite the player to describe it, if she likes. She may rest on her laurels and joke around with the guys in the Herald Tribune’s newsroom, or she may already be scouring a pile of newspaper clippings and notes for her next lead. Around 9 a.m., she gets a telephone call from downstairs.",
-			"Use this as an opportunity to establish Viv’s newsroom and how she meets with interested parties. Does she have the receptionist send them up to her desk in a smoky room full of (mostly) men bent over typewriters and paper-strewn desks? Or does she meet with her Sources and sometime- clients in another location, such as a restaurant across the street? Have the player take a moment to describe something important that Viv keeps at her desk in the newsroom, or her regular order at the restaurant."
+			"Use this as an opportunity to establish Viv’s newsroom and how she meets with interested parties. Does she have the receptionist send them up to her desk in a smoky room full of (mostly) men bent over typewriters and paper-strewn desks? Or does she meet with her Sources and sometime- clients in another location, such as a restaurant across the street? Have the player take a moment to describe something important that Viv keeps at her desk in the newsroom, or her regular order at the restaurant.",
+			"The player begins with one Problem card in hand (“Sucker for a Pretty Face,” “Hand-to- Mouth,” “Anything for a Story,” or “Hot-Tempered”). If this is the player’s first One-2- One session, explain how the acquisition and Countering of Problem cards works.",
+			"Viv’s visitor is a fragile, waif-like girl. Sadie Cain speaks in the soft, defensive tone of someone who has gone through her story several times already. She’s cried too long to have any tears left. Instead, her eyes reflect a quiet blankness.",
+			"Sadie’s fiancé, George Preston, disappeared three days ago under mysterious circumstances. She thinks the police are framing him for a murder, just like those articles Viv wrote about police frame-ups a few years ago. She wants Viv to find him and to prove him innocent. She explains the situation as follows:",
+			"In response to specific questions, Sadie responds with the following information:",
+			"Sadie gives a Brooklyn address on the seedier side of Prospect Park where she can be reached."
+
 		],
-		"clues": ["someone_in_georges", "george_works_as"], 
+		"clues": ["someone_in_georges", "george_went_to", "she_didnt_learn", "as_nobody_important", "vivs_encountered_types", "the_police_rarely", "she_met_george", "george_works_as", "sadie_admits_she", "george_was_on", "george_didnt_have", "george_rents_a", "everyone_persecuted_george", "if_asked_she", "the_police_questioned", "in_the_newsroom"], 
 		"characters": ["sadie_cain"]
 	},
 	{
