@@ -1,8 +1,6 @@
-[
-	{
-		"tag": "athletics", 
-		"general_ability_name": "Athletics",
-		"general_ability_type": "physical", 
-		"general_ability_description": "Athletics allows you to perform general acts of physical derring-do, from running to jumping to throwing bundles of dynamite to dodging oncoming objects."
-	}
-]
+[{
+	"tag": "athletics",
+	"general_ability_name": "Athletics",
+	"general_ability_type": "physical",
+	"general_ability_description": "Athletics allows you to perform general acts of physical derring-do, from running to jumping to throwing bundles of dynamite to dodging oncoming objects."
+}]

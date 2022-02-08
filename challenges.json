@@ -1,10 +1,9 @@
-[ 
-	{
+[{
 		"tag": "other_peoples_mail",
-		"name": "Other People's Mail", 
-		"type": "filch", 
+		"name": "Other People's Mail",
+		"type": "filch",
 		"advance": {
-			"threshold": 4, 
+			"threshold": 4,
 			"description": "You successfully purloin the letter. Grants access to alternate scene 'The Psychical Investigator'."
 		},
 		"hold": {
@@ -21,7 +20,7 @@
 		"tag": "antagonist_reaction_1_challenge",
 		"type": "cool",
 		"advance": {
-			"threshold": 6,  
+			"threshold": 6,
 			"description": "Gain Edge 11, 'Good Citizen'."
 		},
 		"hold": {

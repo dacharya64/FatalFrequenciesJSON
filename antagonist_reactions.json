@@ -1,8 +1,6 @@
-[
-	{
-		"tag": "antagonist_reaction_1",
-		"trigger": "Holds Problem 11, 'Easier in than out'",
-		"description": "MacAdams’ cops toss Viv’s place, causing conflict with her landlady and roommate", 
-		"challenge": "antagonist_reaction_1_challenge"
-	}
-]
+[{
+	"tag": "antagonist_reaction_1",
+	"trigger": "Holds Problem 11, 'Easier in than out'",
+	"description": "MacAdams’ cops toss Viv’s place, causing conflict with her landlady and roommate",
+	"challenge": "antagonist_reaction_1_challenge"
+}]

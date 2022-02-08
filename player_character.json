@@ -1,11 +1,10 @@
 {
 	"edges": ["ice_queen"],
-	"problems": ["sucker_for_a_pretty_face"], 
+	"problems": ["sucker_for_a_pretty_face"],
 	"investigative_abilities": ["accounting", "assess_honesty"],
-	"general_abilities": 
-		{
-			"athletics": 1
-		},
-	"pushes": 4, 
+	"general_abilities": {
+		"athletics": 1
+	},
+	"pushes": 4,
 	"items": []
 }

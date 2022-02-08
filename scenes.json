@@ -1,5 +1,4 @@
-[ 
-	{
+[{
 		"tag": "sadies_sob_story",
 		"name": "Sadie's Sob Story",
 		"type": "introduction",
@@ -15,21 +14,21 @@
 			"Sadie gives a Brooklyn address on the seedier side of Prospect Park where she can be reached."
 
 		],
-		"clues": ["someone_in_georges", "george_went_to", "she_didnt_learn", "as_nobody_important", "vivs_encountered_types", "the_police_rarely", "she_met_george", "george_works_as", "sadie_admits_she", "george_was_on", "george_didnt_have", "george_rents_a", "everyone_persecuted_george", "if_asked_she", "the_police_questioned", "in_the_newsroom"], 
+		"clues": ["someone_in_georges", "george_went_to", "she_didnt_learn", "as_nobody_important", "vivs_encountered_types", "the_police_rarely", "she_met_george", "george_works_as", "sadie_admits_she", "george_was_on", "george_didnt_have", "george_rents_a", "everyone_persecuted_george", "if_asked_she", "the_police_questioned", "in_the_newsroom"],
 		"characters": ["sadie_cain"]
 	},
 	{
 		"tag": "fullers_electrical_repair",
 		"name": "Fuller's Electrical Repair",
-		"type": "core", 
-		"visited": false, 
+		"type": "core",
+		"visited": false,
 		"lead_ins": ["sadies_sob_story"],
 		"lead_outs": ["fuller_himself", "charming_charlie"],
 		"description": [
 			"Several blocks north of Fulton, the main business street of downtown Brooklyn, Fuller’s Electrical Repair occupies a two-story brick warehouse. Whether visiting Fuller or Fitzpatrick first, when Viv approaches Fuller’s, she sees a small crowd of men waiting outside. Even in the city, work for electricians comes in piecemeal and more infrequently as the Depression worsens. A job with Fuller’s guarantees a steady meal ticket. Once word got out that one of Fuller’s employees has gone AWOL, several dozen men began lingering outside the shop in hopes of catching the big man’s attention when he steps outside. If Viv stops to listen to the men talk, she learns that, the last few days, Fuller has asked one or two men to show him their skills. He must have high standards, however, as those men haven’t come back.",
 			"Apart from a tidy desk in the front, the inside of Fuller’s reflects its warehouse origins. A small mezzanine office, accessible by iron staircase and walkway, sits on top of a storage room at the back. On the high-ceilinged main floor, a dozen men work at individual benches over an assortment of smaller items (radios, sewing machines, irons) and a few large appliances (refrigerators, vacuum cleaners, washing machines). Most don’t look up, but one or two glance her way. If Viv asks about Charlie Fitzpatrick immediately, a nearby worker indicates a shorter, broad-shouldered figure in a cap working near the back of the room. Otherwise, Mr. Fuller’s secretary, Petunia Adams, comes bustling forward to meet her. A well-scrubbed young woman of about 25 in a sensible cotton print frock, Petunia maintains an immaculate bun and an all-business attitude “to keep the boys at bay.” She considers herself a kind of “den mother” to the “boys” in the shop, even those a decade older than herself."
 		],
-		"clues": ["she_always_thought", "yes_george_worked", "she_doesnt_know", "georges_looked_more", "no_he_must"], 
+		"clues": ["she_always_thought", "yes_george_worked", "she_doesnt_know", "georges_looked_more", "no_he_must"],
 		"characters": ["petunia_adams"]
 	}
 ]

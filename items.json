@@ -1,8 +1,6 @@
-[
-	{
-		"tag": "photo_of_george",
-		"name": "A photograph of George Preston",
-		"description": "A photograph of George Preston, a gangling young man with light hair and eyes", 
-		"type": "photograph"
-	}
-]
+[{
+	"tag": "photo_of_george",
+	"name": "A photograph of George Preston",
+	"description": "A photograph of George Preston, a gangling young man with light hair and eyes",
+	"type": "photograph"
+}]

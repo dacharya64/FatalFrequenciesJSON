@@ -1,8 +1,6 @@
-[
-	{
-			"tag": "accounting", 
-			"name": "Accounting",
-			"description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
-			"type": "academic"
-	}
-]
+[{
+	"tag": "accounting",
+	"name": "Accounting",
+	"description": "You understand bookkeeping and accountancy procedures; you can read and keep financial records.",
+	"type": "academic"
+}]
