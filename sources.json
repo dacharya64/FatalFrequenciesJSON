@@ -1,7 +1,36 @@
 [{
-	"tag": "annette_rice",
-	"name": "Annette (Nettie) Rice",
-	"profession": "Professor",
-	"description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.",
-	"investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
-}]
+		"tag": "annette_rice",
+		"name": "Annette (Nettie) Rice",
+		"profession": "Professor",
+		"description": "If, during her time at Hunter College, someone had asked Viv which professor she’d be closest friends with in a decade, she’d never have named Nettie Rice.",
+		"investigative_abilities": ["astronomy", "biology", "chemistry", "languages", "physics"]
+	},
+	{
+		"tag": "stella_abrams",
+		"name": "Astelle 'Stella' Abrams",
+		"profession": "Amateur Occultist",
+		"description": "Astelle “My spirit is more of a Stella” Abrams flits between mediums and mediums. Whether deciding to focus on sculpting or join the Hermetic Order of the Golden Dawn, she’s passionate about it — until she isn’t. Despite her apparent religious frivolity, she never discards books the way she does beliefs and can be called upon for theological as well as occult questions. At night, her heavy kohl makeup, bangles, and robe-like dresses quickly identify her as an acolyte with aspirations. By day, she works as a low-level draftswoman in her father’s architectural firm. In return, her father funds summer-long artists’ retreats and tolerates her forays into occultism. He’s waiting for her to give up her wild streak and put her obvious talent to use in the family trade. If you catch her in the studio, she’s likely got paint, iron filings, or plaster in her tousled brown curls, depending on her current “period.” Viv fell for Stella during an undercover investigation of a drug-smuggling ring passing itself off as a yogic sect. Even after their fling ended, Vivian stayed close with the vivacious bohemian, who will happily expound on current and former passions, or on architecture if she must. Stella’s ebullient personality doesn’t lend itself to limiting the flow of information, but her earnest, schoolchild’s manner when explaining Mythos matters means that hearing about Cthulhu’s eventual rise doesn’t scare Viv as much as it might, coming from someone else.",
+		"investigative_abilities": ["architecture", "craft", "cthulhu_mythos", "occult", "theology"]
+	},
+	{
+		"tag": "joseph_oconnor",
+		"name": "Lt. Joseph O'Connor",
+		"profession": "Detective",
+		"description": "Viv first saw police lieutenant Joseph O’Connor in 1931’s Seabury Hearings (see p. 166), as he testified about the corrupt judicial system along with over a thousand victims, lawyers, judges, and even a few other honest police officers. He stood out to Viv as an honest man trying to do the right thing even if it jeopardized his future with the department, or even his life. When, shortly afterward, she ran across him during one of her own investigations, Viv impressed the bulb-nosed, middle-aged detective with her determination to get to the truth. They sometimes meet in the field as they investigate the same crimes, but Lt. O’Connor also welcomes Viv’s visits or calls to his cramped 7th Precinct office on the Lower East Side. He understands your average street criminal’s motivations and methods, but appreciates Viv’s journalistic insights on big business or the rich and famous. In return, he may shake up one of her suspects or even bring them in for questioning if she makes a good enough argument. He slept better at night after the hearings, but made plenty of enemies on the force and in the judicial system.",
+		"investigative_abilities": ["cop_talk", "forensics", "intimidation", "law", "streetwise"]
+	},
+	{
+		"tag": "esteban_gonzalez",
+		"name": "Esteban Manuel Aragon Gonzalez",
+		"profession": "Explorer",
+		"description": "The son of Cuban immigrants who arrived in New York City after the Spanish-American war, Esteban Manuel Aragon Gonzalez discovered a passion for archaeology in his 20s, when he took a summer off from his work blazing trails and fighting fires in Yellowstone to take a trip to the American Southwest. Returning to New York, he found night work and studied Art History and Archaeology at Columbia College. Now he hangs out his shingle as guide for amateur archaeological expeditions, which he leads to places such as Egypt, China, Peru, and the American Southwest. Between treks, Esteban provides curatorial guidance at the American Museum of Natural History. There, he specializes in pre-Columbian artifacts of Western, Central, and South America. With his free time, Esteban hikes the Long Trail in Vermont or blazes segments of New York’s newly- proposed Long Path toward Albany. A man can never get too much fresh air, sunshine, or exercise. Esteban met Viv several years ago on an expedition he led for the National Geographic Society — he came for the archaeology, Viv for the story. They developed the friendship of kindred spirits who choose a never-ending quest for adventure over white picket fences or dinners at six-thirty sharp. When in the city, he enjoys dining out with Viv to share stories of their latest exploits. He’s happy to hazard the cultural history of a peculiar idol she’s discovered, or identify a strange set of tracks.",
+		"investigative_abilities": ["anthropology", "archaeology", "art_history", "geology", "outdoorsman"]
+	},
+	{
+		"tag": "louisa_reynolds",
+		"name": "Louisa Reynolds",
+		"profession": "Nurse",
+		"description": "Louisa Reynolds was born a Sinclair, third cousin to Vivian on a wealthier branch of the family tree: the kind of branch that keeps track of its third cousins. Inspired by stories of Florence Nightingale and Edith Cavell, she rejected a “proper” lady’s education and entered nursing school instead. When she married prominent psychologist Arthur Reynolds, everyone expected Louisa to retire from her hospital position and hold fundraisers for his sanitarium, join a few boards of charitable institutions, and finally start behaving like the Sinclair she was born to be. Instead, her husband hired her as the sanitarium’s chief nurse and she used his library as a starting point for an extensive study of psychiatry. Ten years younger than her distant cousin, Viv first sought out Louisa while working on one of her first stories, investigating conditions at sanitariums and asylums around the city. She found Reynolds’ methods refreshingly modern and humane (albeit from her 1930s perspective) and formed a friendship with the older Louisa. Now a stern, no-nonsense woman in her mid-40s, Louisa disapproves of the risks Viv takes in her work, but can’t argue with the results. While neither a psychiatrist nor a doctor, she’s absorbed a vast practical knowledge of medicine, pharmacy, and psychology through her work and self-education. If she doesn’t have an answer for Viv, she consults her husband’s library and matter-of-factly dispenses more information than Viv ever cared to know on a topic.",
+		"investigative_abilities": ["medicine", "pharmacy", "psychology"]
+	}
+]
