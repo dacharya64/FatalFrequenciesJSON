@@ -1,14 +1,155 @@
 [
 	{
 		"tag": "sadie_cain", 
-		"name": "Sadie Cain", 
-		"goal": "Find missing husband", 
+		"name": "Sadie Cain",
+		"age": 21,
+		"alive": true,
+		"description": "A garment worker engaged to George Preston. She believes that while the course of true love may not always run smooth, love still prevails.",
+		"relation_to_player": "client", 
+		"goal": "Find missing fiance", 
 		"occupation": "garment worker",
 		"knows": ["george_preston"], 
 		"relationship_with": [
 			{
 				"character": "george_preston",
-				"relationship": "married",
+				"relationship": "engaged",
+				"valence": "positive"
+			}
+		]
+	},
+	{
+		"tag": "george_preston", 
+		"name": "George Preston", 
+		"age": 23,
+		"alive": false, 
+		"description": "Always a tinkerer, he sought to unlock the secrets of the human brain. Unfortunately, his “sympathetic resonator” proved fatal in a way he never anticipated",
+		"relation_to_player": "victim", 
+		"occupation": "mechanic / inventor", 
+		"knows": ["sadie_cain", "howard_fuller", "charlie_fitzpatrick"], 
+		"relationship_with": [
+			{
+				"character": "marty_the_mouth",
+				"relationship": "owes money to",
+				"valence": "negative"
+			},
+			{
+				"character": "charlie_fitzpatrick",
+				"relationship": "friends",
+				"valence": "positive"
+			},
+			{
+				"character": "hereward_carrington",
+				"relationship": "corresponds with",
+				"valence": "positive"
+			},
+			{
+				"character": "madame_isis",
+				"relationship": "potential acolyte of",
+				"valence": "positive"
+			},
+			{
+				"character": "clarence_simpson",
+				"relationship": "rents from",
+				"valence": "neutral"
+			}
+		]
+	},
+	{
+		"tag": "charlie_fitzpatrick", 
+		"name": "Charlie (Charlene) Fitzpatrick", 
+		"age": 23, 
+		"alive": true, 
+		"description": "The victim’s best friend since childhood, a hard-eyed, talented woman working as an electrician alongside George. Charlie feels guilt and anxiety over having brushed off George the night he disappeared.",
+		"occupation": "mechanic", 
+		"knows": ["george_preston", "howard_fuller"]
+	},
+	{
+		"tag": "howard_fuller",
+		"name": "Howard Fuller", 
+		"age": 47, 
+		"alive": true, 
+		"description": "Owner of Fuller’s Electrical Repair. Ruthlessly cut-throat in business matters, Fuller spends his days in an upper-floor office overlooking his men’s work. He could answer the riddle of Preston’s disappearance, but doing so would force him to reveal the true creator of the machine he hopes to pass off as his own invention. It might also raise questions about subsequent disappearances.",
+		"occupation": "Head of Fuller's Electrical Repair", 
+		"knows": ["george_preston", "charlie_fitzpatrick", "petunia_adams"],
+		"relationship_with": [
+			{
+				"character": "george_preston",
+				"relationship": "boss of, killer of",
+				"valence": "negative"
+			}, 
+			{
+				"character": "charlie_fitzpatrick", 
+				"relationship": "boss of", 
+				"valence": "neutral"
+			}, 
+			{
+				"character": "petunia_adams", 
+				"relationshp": "boss of", 
+				"valence": "neutral"
+			}
+		]
+	},
+	{
+		"tag": "clarence_simpson", 
+		"name": "Clarence Simpson", 
+		"age": 68, 
+		"alive": true, 
+		"description": "George Preston’s thin, beak-nosed landlord. Generally lazy, and can go for months without needing to do any real business for the apartment-house other than collecting monthly rents. Extremely put out by the death and by having the police in his building.", 
+		"occupation": "landlord", 
+		"knows": ["george_preston"]
+	},
+	{
+		"tag": "pearl_leblanc", 
+		"name": "Pearl LeBlanc", 
+		"age": 18, 
+		"alive": true, 
+		"description": "A stenographer and devout acolyte of the Temple of Nephthys. Pearl would do anything for Madame Isis, who channels the ghost of her beloved elder sister Louisa any time Pearl’s devotion seems to flag.",
+		"occupation": "acolyte", 
+		"knows": ["madame_isis"], 
+		"relationship_with": [
+			{
+				"character": "madame_isis", 
+				"relationshp": "devotee of", 
+				"valence": "positive"
+			}
+		]
+	},
+	{
+		"tag": "madame_isis", 
+		"name": "Madame Isis Neferi", 
+		"age": 52, 
+		"alive": true, 
+		"description": "Priestess of the Temple of Nephthys. A quick hand with a cold read, medium Bertha Cook formed her own church to add a veneer of respectability to her old sideshow act. Now, as Madame Isis Neferi, she holds public séances three nights a week and by private appointment along with a syncretic Sunday service combining pseudo-Egyptian mythology with American spiritualism.",
+		"knows": ["pearl_leblanc", "addie_sims"]
+	},
+	{
+		"tag": "hereward_carrington", 
+		"name": "Hereward Carrington", 
+		"age": 55, 
+		"alive": true, 
+		"description": "Investigator of psychic phenomena and frequent de- bunker of fraudulent mediums. Like Houdini, Carrington’s researches and publications sug- gest that he wants to believe in the possibility of psychic phenomena. Some contemporaries criticize him for occasional credulity despite his many debunkings.",
+		"knows": ["george_preston"]
+	},
+	{
+		"tag": "marty_the_mouth", 
+		"name": "Marty the Mouth", 
+		"age": 43, 
+		"alive": true, 
+		"description": "Low-level enforcer for the Luciano crime family. Affable enough in a tough-guy way, unless you cross his boss or start poking your nose somewhere it doesn’t belong.", 
+		"knows": "george_preston"
+	}, 
+	{
+		"tag": "addie_sims", 
+		"name": "Addie Sims", 
+		"age": 36, 
+		"alive": true, 
+		"occupation": "acolyte/widow",
+		"description": "Anxious client of Madame Isis and wife of one of Fuller’s victims.", 
+		"knows": ["madame_isis"], 
+		"relationship_with": [
+			{
+				"character": "madame_isis", 
+				"relationshp": "seeking answers from", 
 				"valence": "positive"
 			}
 		]
@@ -16,14 +157,55 @@
 	{
 		"tag": "petunia_adams",
 		"name": "Petunia Adams",
+		"alive": true, 
+		"description": "Mr. Fuller's secretary. All-business attitude. Well-scrubbed and sees herself as a 'den mother' to the 'boys' in the shop.",
 		"occupation": "secretary",
-		"knows": ["howard_fuller"],
-		"relationship_with": [
-			{
-				"character": "howard_fuller",
-				"relationship": "works_under",
-				"valence": "positive"
-			}
-		]
+		"knows": ["howard_fuller", "george_preston"]
+	},
+	{
+		"tag": "minnie_boyer", 
+		"name": "Minnie Boyer", 
+		"alive": true,
+		"description": "A middle-aged woman who lives in the same building as George.", 
+		"knows": ["george_preston"]
+	}, 
+	{
+		"tag": "august_williams", 
+		"name": "August Williams", 
+		"alive": true, 
+		"description": "An old man who lives in the same building as George.", 
+		"knows": ["george_preston"]
+	}, 
+	{
+		"tag": "violet_blake", 
+		"name": "Violet Blake", 
+		"alive": true, 
+		"description": "A well dressed young woman who lives in the same building as George.", 
+		"knows": ["george_preston"]
+	}, 
+	{
+		"tag": "marie_lewis", 
+		"name": "Marie Lewis", 
+		"alive": true, 
+		"description": "A woman working in overcrowded offices and constantly on calls taking complaints about the power.", 
+		"knows": ["nettie_rice"]
+	},
+	{
+		"tag": "herbert_roach", 
+		"name": "Herbert Roach", 
+		"alive": true, 
+		"description": "A worker at Fuller's. Middle-aged man.", 
+		"knows": ["howard_fuller", "george_preston"]
+	}, 
+	{
+		"tag": "myron_fink", 
+		"name": "Myron Fink", 
+		"alive": false, 
+		"knows": ["george_preston"], 
+		"relationship_with": {
+			"character": "george_preston", 
+			"relationship": "neighbor, accidently killed by", 
+			"valence": "neutral"
+		}
 	}
 ]
