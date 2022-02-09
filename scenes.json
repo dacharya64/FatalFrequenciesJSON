@@ -65,5 +65,20 @@
 		],
 		"clues": ["on_that_fateful", "other_tenants_in", "nobody_could_get", "he_had_to", "simpson_reluctantly_admits", "preston_wouldnt_answer", "as_far_as_he"],
 		"characters": ["clarence_simpson"]
+	},
+	{
+		"tag": "charming_charlie",
+		"name": "Charming Charlie",
+		"type": "core",
+		"visited": false,
+		"lead-ins": ["sadies_sob_story", "fullers_electrical_repair", "fuller_himself"],
+		"lead-outs": ["fuller_himself", "the_peculiar_death_of_myron_fink"],
+		"descripttion": [
+			"Short and practical, Charlie (Charlene) Fitzpatrick always threw the dreamer George into relief From early in the morning until 6 p.m. or so, Monday through Saturday, Viv can find Charlie hunkered down at her workbench working on a radio set, sewing machine, or other problem of the day. She puts in longer hours than any of the men in the shop, except George, whose work on his own device doesn't count toward his paycheck. Like the men, she wears a shapeless, many-pocketed smock, but it doesn't protect her from the perpetual grease smudges she gets wiping her forehead. Charlie cuts her hair in a 'mannish' short style and ironically tips her cap and winks when Viv approaches, cheekily anticipating any surprise her gender creates",
+			"Once Charlie learns Viv's mission, she shows eagerness to help, though with an undercurrent of guilt. She reveals the basics of George's request and her own need to 'keep a date':",
+			"She also discloses the following in response to specific questions:"
+		],
+ 		"clues": ["george_asked_her", "mr_fuller_would", "she_has_known", "charlie_evades_pinning", "she_thinks_george", "no_george_wouldnt", "she_tried_taking", "viv_isnt_the", "notices_that_any", "guesses_that_at"],
+		"characters": ["charlie_fitzpatrick"]
 	}
 ]
