@@ -30,5 +30,20 @@
 		],
 		"clues": ["she_always_thought", "yes_george_worked", "she_doesnt_know", "georges_looked_more", "no_he_must"],
 		"characters": ["petunia_adams"]
+	},
+	{
+		"tag": "what_the_cops_know",
+		"name": "What the Cops Know",
+		"type": "alternate",
+		"visited": false,
+		"lead_ins": ["sadies_sob_story", "the_peculiar_death_of_myron_fink", "fuller_himself"],
+		"lead_outs": ["the_thing_in_the_morgue", "the_peculiar_death_of_myron_fink"],
+		"description": [
+			"Between police distrust of journalists as a type and of Viv in particular, Viv knows better than to approach the investigating officer for information. Instead, when she wants to know what the police know, she approaches her Source, Lt. O’Connor. The two rarely meet at the station, preferring instead to get burned coffee at one of the nearby diners which specialize in helping beat cops burn the midnight oil. If the player wants to establish further backstory of her relationship with O’Connor, invite her to describe the last case where the detective lent Viv a hand.",
+			"Despite his twenty years on the force, O’Connor blanches when Viv mentions the name of the man she’s looking for. He’s seen some shocking murders, but he’s glad that this case didn’t happen in his precinct. He tells Viv the basics he knows of the case:",
+			"And in response to specific questions:"
+		],
+		"clues": ["the_original_call", "because_nobody_could", "as_far_as", "oconnor_describes_the", "this_preston_fellow", "he_hasnt_seen"],
+		"characters": ["joseph_oconnor"]
 	}
 ]

@@ -127,5 +127,43 @@
 		"description": "No, he must have taken it with him because it’s not here now.",
 		"known": false,
 		"from_specific_question": false
+	},
+	{
+		"tag": "the_original_call",
+		"description": "(Alternate lead-in, “The Peculiar Death of Myron Fink”) The original call reported a disturbance rather than a death. Several tenants of the same building reported strange sounds and seeing things.",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "the_peculiar_death_of_myron_fink"
+	},
+	{
+		"tag": "because_nobody_could",
+		"description": "Because nobody could agree on what happened or whether or not the man screamed, the re- sponding beat cop didn’t break down the door, but it wouldn’t have helped anyway.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "as_far_as",
+		"description": "(Alternate lead-in, “The Thing in the Morgue”) As far as he knows, the body hasn’t yet left Bellevue (Bureaucracy: the morgue at Bellevue Hospital, on 29th Street).",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "the_thing_in_the_morgue"
+	},
+	{
+		"tag": "oconnor_describes_the",
+		"description": "O’Connor describes the officer in charge, James MacAdams, as a hard-liner. Does things by the book, but generally fair. Seems to be pushing for a quick closure on this case, and O’Connor can’t blame him considering what he’s heard.",
+		"known": false,
+		"from_specific_question": true
+	},
+	{
+		"tag": "this_preston_fellow",
+		"description": "This Preston fellow is the natural suspect. From what he heard, they didn’t have any leads until Preston flew the coop.",
+		"known": false,
+		"from_specific_question": true
+	},
+	{
+		"tag": "he_hasnt_seen",
+		"description": "(Alternate lead-in, “The Thing in the Morgue”) He hasn’t seen the body, and he doesn’t plan on it. Several of the policemen on the case show signs of drinking harder than usual. One hasn’t slept since: just keeps drinking coffee to stay awake. If Viv is sure she wants to see it, he might be able to pull some strings and get her in.",
+		"known": false,
+		"from_specific_question": true
 	}
 ]
