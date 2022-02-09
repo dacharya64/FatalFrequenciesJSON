@@ -165,5 +165,49 @@
 		"description": "(Alternate lead-in, “The Thing in the Morgue”) He hasn’t seen the body, and he doesn’t plan on it. Several of the policemen on the case show signs of drinking harder than usual. One hasn’t slept since: just keeps drinking coffee to stay awake. If Viv is sure she wants to see it, he might be able to pull some strings and get her in.",
 		"known": false,
 		"from_specific_question": true
+	},
+	{
+		"tag": "on_that_fateful",
+		"description": "On that fateful night, he had gone to the moving pictures. “Normally, you wouldn’t find a quieter convent. I haven’t had to stay on the premises all day and night.”",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "other_tenants_in",
+		"description": "Other tenants in the building reported strange sounds. Then someone in Myron Fink’s apartment screamed.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "nobody_could_get",
+		"description": "(Pipe, “The Thing in the Morgue”) Nobody could get the door open until he came back from the pictures, which wasn’t until after midnight. When he opened it, they found Fink dead. “Couldn’t have saved him, though, not in a condition that serious.” He immediately called the police. Police didn’t even bother calling a doctor; coroner took him straight to the morgue.",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "the_thing_in_the_morgue"
+	},
+	{
+		"tag": "he_had_to",
+		"description": "He had to check on all the tenants. Most inconvenient. Everyone else was accounted for, including Preston. Police didn’t take him in that night, but told everyone not to try any funny business. Then Preston doesn’t come home, so what’s a man to think? Of course he called the police. That’s the definition of funny business, after all. Now the police think Preston did it, and why should he contradict them?",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "simpson_reluctantly_admits",
+		"description": "(Pipe, “The Thing in the Morgue”) Simpson reluctantly admits that nobody can tell yet ex- actly what killed Fink. Not an ordinary weapon, for sure. But even if Preston didn’t shoot him, why would he have run if he didn’t kill him somehow?",
+		"known": false,
+		"from_specific_question": true,
+		"leads_to": "the_thing_in_the_morgue"
+	},
+	{
+		"tag": "preston_wouldnt_answer",
+		"description": "Preston wouldn’t answer his door, but when Simpson unlocked it they found him curled up in bed, shivering.",
+		"known": false,
+		"from_specific_question": true
+	},
+	{
+		"tag": "as_far_as_he",
+		"description": "As far as he knows, Fink and Preston had no bad blood between them. Fink worked as an accountant, paid his rent on time, and kept himself to himself. Until this week, Simpson considered them two of his easier tenants.",
+		"known": false,
+		"from_specific_question": true
 	}
 ]

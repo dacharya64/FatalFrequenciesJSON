@@ -45,5 +45,25 @@
 		],
 		"clues": ["the_original_call", "because_nobody_could", "as_far_as", "oconnor_describes_the", "this_preston_fellow", "he_hasnt_seen"],
 		"characters": ["joseph_oconnor"]
+	},
+	{
+		"tag": "the_peculiar_death_of_myron_fink",
+		"name": "The Peculiar Death of Myron Fink",
+		"type": "core",
+		"visited": false,
+		"lead_ins": ["sadies_sob_story", "charming_charlie", "what_the_cops_know"],
+		"lead_outs": ["georges_apartment", "interviewing_the_neighbors", "the_thing_in_the_morgue", "what_the_cops_know"],
+		"description": [
+			"Preston’s apartment building near the Brooklyn Navy Yard stands among a mixture of tenements and whitewashed, “modernized” buildings. It had done service in the 18th century as a large rooming-house for factory workers. Around the turn of the century, new owners transformed it into multi-room apartments with makeshift kitchens, and studio apartments without. Preston could have walked to work and paid a fairly low price without living in one of the slummier buildings.",
+			"A thin, craggy man holding his handkerchief to his beaked nose, “[sniff ] allergies,” Clarence Simpson has managed the apartment building for the last seven years. He likes tenants who keep themselves to themselves. He had prided himself on his ability to weed out bad apples, and finds this whole business very upsetting. The recent unpleasantness in his building has him on high alert, so no matter when Viv arrives at the building, he pops his head out of the door to see whether she’s a tenant or an intruder.",
+			"When he learns George’s fiancée hired her, Simpson tells Viv that she can tell that Preston when she finds him that even if he beats the murder rap, he can’t live here anymore. He can’t tell her anything more than he’s told the police (Alternate, “What the Cops Know”) and as for what the other tenants report seeing and hearing (Alternate, “Interviewing the Neighbors”), Simpson chalks it up to mass hysteria from hearing Fink’s death-scream and whatever fight preceded it.",
+			"Viv may Push Bargain to persuade Simpson to show her up to the apartments in question. When doing so, he hangs around, watching her and sniffing disapprovingly. Viv may also use a Cool Quick Test (Advance 4) to talk him into it or a Stealth Quick Test (Advance 4) to make her way unseen to Fink’s or Preston’s apartment door.",
+			"Fink’s Apartment",
+			"If Simpson guides her, he leads Viv to Fink’s room on the building’s third story. “Cops finished with the place, but somebody’s got to clean it.” Otherwise, Viv knows that Fink’s apartment was next door to the number she has for George. If she chooses the apartment to the right, she gets a rather disgruntled housewife who informs her that she does not want to contribute to any charities or convert to any new religions, and slams the door on her. Fink’s apartment, on the left, may be entered using Locksmith. The previously made Stealth Quick Test still applies unless the Keeper decides Viv has caused enough fuss to call for a new one.",
+			"The room contains nothing of note other than an enormous bloodstain on the floor and some splatter on the walls and bed. Streetwise tells Viv that the cops have torn it apart (alternate, “What the Cops Know”). As Viv looks around the room, Simpson, if with her, volunteers the following:",
+			"Assess Honesty can tell he lies by omission here, hoping she won’t ask. He provides more information below in response to specific questions:"
+		],
+		"clues": ["on_that_fateful", "other_tenants_in", "nobody_could_get", "he_had_to", "simpson_reluctantly_admits", "preston_wouldnt_answer", "as_far_as_he"],
+		"characters": ["clarence_simpson"]
 	}
 ]
