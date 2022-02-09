@@ -17,6 +17,25 @@
 		"extra_problem": "fuller_becomes_suspicious"
 	},
 	{
+		"tag": "focus_on_the_story,_not_the_smile",
+		"name": "Focus On The Story, Not The Smile",
+		"type": "cool",
+		"penalty": "-2 with Probelm 'Sucker for a Pretty Face'",
+		"advance": {
+			"threshold": 4,
+			"description": "When you interview enough women with charm and grit, you develop immunity to the type. Earn an Edge: Edge 1, 'IceQueen'"
+		},
+		"hold": {
+			"lower_threshold": 2,
+			"upper_threshold": 3,
+			"description": "Cute and you might even want to buy her a drink sometime, but you've got to treat Charlie like any other source - with a bit of distance and a grain of salt."
+		},
+		"setback": {
+			"description": "She's someone special alright. Whether your heart's beating faster or you're just surprised and impressed by finding her here, you've sure got a soft spot for her. Gain Problem 6, 'Soft Spot'"
+		},
+		"extra_problem": "big_talker"
+	},
+	{
 		"tag": "antagonist_reaction_1_challenge",
 		"type": "cool",
 		"advance": {
