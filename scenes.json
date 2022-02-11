@@ -10,11 +10,18 @@
 			"The player begins with one Problem card in hand (“Sucker for a Pretty Face,” “Hand-to- Mouth,” “Anything for a Story,” or “Hot-Tempered”). If this is the player’s first One-2- One session, explain how the acquisition and Countering of Problem cards works.",
 			"Viv’s visitor is a fragile, waif-like girl. Sadie Cain speaks in the soft, defensive tone of someone who has gone through her story several times already. She’s cried too long to have any tears left. Instead, her eyes reflect a quiet blankness.",
 			"Sadie’s fiancé, George Preston, disappeared three days ago under mysterious circumstances. She thinks the police are framing him for a murder, just like those articles Viv wrote about police frame-ups a few years ago. She wants Viv to find him and to prove him innocent. She explains the situation as follows:",
+			{
+				"clues": ["someone_in_georges", "george_went_to", "she_didnt_learn", "as_nobody_important"]
+			},
 			"In response to specific questions, Sadie responds with the following information:",
-			"Sadie gives a Brooklyn address on the seedier side of Prospect Park where she can be reached."
-
+			{
+				"clues": ["vivs_encountered_types", "the_police_rarely", "she_met_george", "george_works_as", "sadie_admits_she", "george_was_on", "george_didnt_have", "george_rents_a", "everyone_persecuted_george", "if_asked_she", "the_police_questioned"]
+			},
+			"Sadie gives a Brooklyn address on the seedier side of Prospect Park where she can be reached.",
+			{
+				"clues": ["in_the_newsroom"]
+			}
 		],
-		"clues": ["someone_in_georges", "george_went_to", "she_didnt_learn", "as_nobody_important", "vivs_encountered_types", "the_police_rarely", "she_met_george", "george_works_as", "sadie_admits_she", "george_was_on", "george_didnt_have", "george_rents_a", "everyone_persecuted_george", "if_asked_she", "the_police_questioned", "in_the_newsroom"],
 		"characters": ["sadie_cain"]
 	},
 	{
@@ -65,5 +72,97 @@
 		],
 		"clues": ["on_that_fateful", "other_tenants_in", "nobody_could_get", "he_had_to", "simpson_reluctantly_admits", "preston_wouldnt_answer", "as_far_as_he"],
 		"characters": ["clarence_simpson"]
+	},
+	{
+		"tag": "interviewing_the_neighbors",
+		"name": "Interviewing the Neighbors",
+		"type": "core",
+		"visited": false,
+		"lead_ins": ["the_peculiar_death_of_myron_fink", "georges_apartment"],
+		"lead_outs": ["the_thing_in_the_morgue"],
+		"description": [
+			"Like witnesses to even a minor event, Myron Fink’s neighbors recount differing versions of what happened that night. Viv gathers the same main elements from any of the three of them (although you need not have each GMC repeat the same facts and may note the similarities instead):",
+			"Minnie Boyer",
+			"A middle-aged woman trying to hold onto the look of her youth in a faded, low-waisted dress, Minnie has lived in the building for about four years. She moved here from Albany with her husband Morris. Morris works nights as a bank guard, so Minnie normally sleeps days and tries to have a dinner ready for him when he gets home.",
+			"August Williams",
+			"A generous estimate puts Williams in his seventies, though his milky blue eyes still hold a canny light. Williams doesn’t sleep very much anymore — “Ain’t no point at my age; I’ll sleep soon enough” — and insists he was wide awake throughout the incident, although some people, with a sharp look at the others, accuse him of dreaming things.",
+			"Williams feels embarrassed if Viv expresses any skepticism, and mutters something about magic lantern shows and practical jokes and how George probably frightened that Fink boy to death and ran away.",
+			"Violet Blake",
+			"Viv first spotted Violet Blake early in her conversation with Mr. Simpson, apparently on her way out of the building. Since then, Violet’s changed her dress and put on a smarter hat: Viv has to admit, the girl looks good. The young woman approaches Viv with a hesitation that wouldn’t appear so affected if she didn’t quickly ask whether Viv had brought one of those newspaper photographers with her."
+		],
+		"clues": [""],
+		"characters": ["minnie_boyer", "august_williams", "violet_blake"]
+	},
+	{
+		"tag": "georges_apartment",
+		"name": "George's Apartment",
+		"type": "core",
+		"lead_ins": ["the_peculiar_death_of_myron_fink", "fuller_himself"],
+		"lead_outs": ["questioning_pearl", "temple_of_nephthys", "miracle_machine", "interviewing_the_neighbors", "the_psychical_investigator"],
+		"description": [
+			"If Simpson accompanies Viv, he leans against the closed door: arms folded, sniffing, watching. Preston’s clothes hang neatly in the closet, but the police detectives who tossed this place left several desk drawers slightly ajar and forced the lock on the center desk drawer.",
+			"Viv’s Evidence Collection skills lead her to check under the mattress. Clearly whoever did this hadn’t worked crime scenes very long, or something about the case kept them from focusing. Taped to the bottom of the mattress, Viv finds a large folder full of schematics. Viv can tell that she’s found designs for an electrical device, almost definitely George’s mysterious machine. She could ask her Source Dr. Rice to help her decipher them (core, “Miracle Machine”). If Simpson gives her trouble, Viv may fib that they belong to Fuller and she’s retrieving them for him.",
+			"On the bookshelf, Viv finds a selection of engineering reference books and works on spiritualism and psychic phenomena. Even if she hasn’t found the letter, Research recognizes titles by local author Hereward Carrington, Your Psychic Powers, and How to Develop Them and The Physical Phenomena of Spiritualism (alternate, 'The Psychical Investigator')",
+			"As Viv leaves the apartment, she (and possibly Simpson) nearly collides with a young woman crouching to pick the lock. The young woman flees. If Viv has gotten Pearl’s description from Fuller or Charlie, she realizes that the woman matches it. If Pearl gets away and Viv visits or revisits the temple, you should use the “Temple of Nephthys” sub-scene “The Girl from the Apartment.” Her interactions with Pearl may lead into “Interviewing the Neighbors,” who come into the hall to investigate the disturbance."
+		],
+		"clues": [],
+		"characters": ["george_simpson"]
+	},
+	{
+		"tag": "questioning_pearl",
+		"name": "Questioning Pearl",
+		"type": "alternate",
+		"lead_ins": ["georges_apartment", "temple_of_nephthys"],
+		"lead_outs": ["temple_of_nephthys", "miracle_machine"],
+		"description": [
+			"If Viv succeeds with Advantage in either of her interactions with Pearl, she drags the girl either back into the apartment or out onto the street (whichever seems narratively appropriate after the fight). She gets in a few questions before her frightened suspect clams up. Pearl LeBlanc appears to be in her late teens. She wears a simple suit, tailored to fit someone slightly larger and sagging slightly around her still-girlish body, and (if Viv caught her) she wobbles slightly in her heels.",
+			"After a brief career as a stenographer, Pearl became a devotee and “private secretary” to Madame Isis Neferi. It started ordinarily enough. Pearl’s older sister (from whom she inherited the suit) died in childbirth, and the distraught young woman desperately sought any means of contacting her again. That was when she found the fliers for Madame Isis and the Temple of Nephthys. Madame Isis channeled her sister so convincingly that Pearl kept coming back. Now she works for Madame Isis and the temple, handling correspondence, managing private appointments, and running errands. With the right questions, Viv may learn the above as well as the following:",
+			"Pearl willingly takes Viv to see Madame Isis, begging her not to reveal the actual details of their encounter. Viv may also threaten to use her police connections, drawing on Lt. O’Connor as an absent source of Intimidation, to bully Pearl into bringing her to the temple."
+		],
+		"clues": [],
+		"characters": ["pearl_leblanc"]
+	},
+	{
+		"tag": "the_psychical_investigator",
+		"name": "The Psychical Investigator",
+		"type": "alternate",
+		"lead_ins": ["fuller_himself", "georges_apartment"],
+		"lead_outs": ["temple_of_nephthys"],
+		"description": [
+			"The letter Viv may poach off Fuller’s desk, or the books she finds in George’s apartment, may lead her to consult Hereward Carrington, psychic investigator. That’s investigator of psychics, not investigator who solves crime using psychic powers.",
+			"The Letter",
+			"Block letters spell out “American Psychical Institute” at the top of the typewritten letter, dated the day of Preston’s disappearance. Carrington thanks Preston for his kind letter. As Preston has deduced from his books, the investigator believes that some psychic phenomena cannot be explained away as mere illusion. He remains open to the possibility of scientific proof. Aren’t scientists making new discoveries every year? Yes, Carrington would certainly like to see the invention once Preston finishes it.",
+			"In the letter, Carrington pans a “Temple of Nephthys you mention” and warns Preston against a certain type of predatory medium who has “more in common with the sideshow than the spirit world.” He notes that while a medium might well speak to the dead, the kind of séance Preston describes Madame Isis performing relies primarily on theatrical elements and knowledge of the participants. As it does not involve other forms of psychic phenomena such as raps or telekinesis or even ghostly fingers, he cannot investigate it.",
+			"Hereward Carrington",
+			"Research: Viv may find out the following things about Carrington by making a short visit to the New York Public Library or going through the Herald Tribune’s archives:",
+			"Viv may either arrange to meet Carrington or choose to drop in at the address listed. He receives her graciously, as he hopes she might decide to feature the institute in one of her columns. Despite three-and-a-half decades in the United States, Carrington speaks with a trace of a British accent. His salt-and-pepper hair still waves as jauntily as it did in the author’s photograph on books Viv may have seen. He has the eyes of a magician, deep set and penetrating.",
+			"Carrington had not heard of his correspondent’s disappearance or the incident at the apartment building. If Viv tells him of the death at George’s building, the strange sights described by the neighbors, or even George’s disappearance, he expresses unfeigned distress at levels appropriate to information received (e.g., concern if George has simply disappeared, great distress if he learns the neighbors’ stories or a description of the body). Excusing himself a moment, he digs through a folder of letters before extracting one and presenting it to Viv as his only interaction with the young man. He encourages Viv to take the letter with her and wishes her the best in locating the young man.",
+			"This scene primarily provides Viv the opportunity to “hear” Preston describing his project in his own words. However, Carrington will answer any questions she puts to him, if he can. Information he may provide:"
+		]
+	},
+	{
+		"tag": "temple_of_nephthys",
+		"name": "Temple of Nephthys",
+		"type": "core",
+		"lead_ins": ["fuller_himself", "questioning_pearl", "the_psychical_investigator"],
+		"lead_outs": ["miracle_machine", "addie_needs_answers", "the_leg_breaker", "questioning_pearl"],
+		"description": [
+			"After Viv first hears about the Temple of Nephthys, she may want to phone up or visit her occult Source, Stella Abrams. Stella has attended several of Madame Isis’ “communions” with the dead. While Madame Isis always starts by reading from the Book of the Dead, the communion soon devolves into a fairly ordinary séance with Egyptian trappings. Stella gives Viv directions to “what used to be a café” in an artistic neighborhood of Brooklyn Heights.",
+			"Either when talking to Stella or drawing on a memory of Esteban Manuel Aragon Gonzalez giving a lecture on archaeology, Viv recalls the famous story of Isis, Osiris, and Set. The goddess Nephthys, while Set’s sister-consort, assisted her sister Isis in retrieving the fourteen missing pieces of her brother Osiris. Some paintings depict her as a hawk, flying above the Nile on the hunt for parts of Osiris’ body.",
+			"The Temple of Nephthys sits among small businesses and neat apartment buildings in a much better area of Brooklyn than George’s apartment building. From the street, it looks like one of the storefront churches popping up in black communities throughout the city. Stenciled letters spell out its name over the door, and decorative ankhs and cartouches on its whitewashed façade ensure even casual passers-by don’t mistake it for an ordinary church. Heavy curtains block any view of the interior, although one can see the word Café in light relief despite someone’s best attempts to scrape it off the windows.",
+			"If Viv arrives during the day, the temple is locked, although Madame Isis can still be found inside. When she knocks, Madame Isis herself opens it. If the player instead chooses to use Locksmith to open it, it requires a Difficulty 5 Stealth test to do so in broad daylight. On failure, Madame Isis hears her fumbling in the lock and jerks the door open, starting the interaction on a hostile footing.",
+			"If Viv arrives at night, she discovers a “communion” already under way and may slip into the back (see “Communion with the Dead”).",
+			"Madame Isis Neferi",
+			"In a film, Madame Isis Neferi (née Bertha Cook) might be played by an aging Louise Fletcher. Rather than spend her hard-grifted money on the exotic robes and turbans favored by some mediums, she cultivates a simple aesthetic of black dresses accented by a heavy silver ankh necklace. When imparting wisdom, she speaks in what she’d call a “resonant” voice, steeples her fingers, and stares at the supplicant from under her heavy brows.",
+			"Though essentially a con artist, Madame has bought enough into her own shtick that she remains open to the existence of spirits: and if a machine really could do what George claims? That would set her up for life, especially if she could convince George to allow her exclusive use of it. A use of Oral History in combination with specific questions gets Madame Isis to reveal the following:",
+			"Ask the player whether or not Viv has lost someone in her own life. If so, Madame Isis senses “a spirit floats about you, my dear, wishing to speak” (a guess on her part, but she’s a great cold-reader) and invites her to participate in a “Communion with the Dead,” held nightly. Communions start at 8 p.m. and last around two hours — longer if the spirits feel especially communicative. Otherwise, she indicates that if Viv has any further questions, perhaps she’d like to attend a “communion” tonight.",
+			"Communion with the Dead",
+			"Viv’s canny journalist’s eye identifies several different types at the communion: an older widow, a bereaved parent, an idly curious spectator, and a handful of obvious regulars who acknowledge each other before taking their seats. Cloyingly sweet incense fills the room from several braziers. Madame Isis begins the service by reading passages from the Book of the Dead. Some in the audience mutter, “Amen,” probably from force of habit.",
+			"Other than the reading, the séance consists of ordinary channeling. Should she have learned that Viv has lost someone, Madame passes on a “message” telling Viv that this person has found peace in the afterlife but there’s something they want Viv to do for them — but she can’t make it out before losing the connection. “Perhaps next time.” If Viv asks to contact the spirit of George Preston, Madame Isis stalls with some patter about not being able to sense George’s spirit among them. Streetwise: Madame’s reputation might survive channeling a living person to a few ordinary clients, but she never forgets Viv’s profession and has no desire to end up on the wrong side of an exposé.",
+			"Should Viv decide to question any of the clients before or after the communion, she ends up talking to Addie Sims (alternate, “Addie Needs Answers”). Otherwise, Madame Isis catches Viv’s eye and nods her head significantly in Addie’s direction just as Addie is on the verge of slipping out the door.",
+			"The Girl from the Apartment",
+			"If Viv has encountered Pearl at the apartments and the girl escaped — with or without the schematics — Madame Isis calls her into the room and demands she apologize to Viv. Pearl looks shaken. Even if Madame Isis sent her to search Preston’s apartment, she certainly didn’t intend her to get caught while doing so. She returns any purloined schematics, and Madame Isis asks Viv to forgive the young woman’s impetuosity.",
+			"Viv may ask the questions from “Questioning Pearl,” under the watchful gaze of Madame Isis. She may have already gleaned some information from her conversations with the medium."
+		]
 	}
 ]
