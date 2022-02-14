@@ -163,6 +163,256 @@
 			"The Girl from the Apartment",
 			"If Viv has encountered Pearl at the apartments and the girl escaped — with or without the schematics — Madame Isis calls her into the room and demands she apologize to Viv. Pearl looks shaken. Even if Madame Isis sent her to search Preston’s apartment, she certainly didn’t intend her to get caught while doing so. She returns any purloined schematics, and Madame Isis asks Viv to forgive the young woman’s impetuosity.",
 			"Viv may ask the questions from “Questioning Pearl,” under the watchful gaze of Madame Isis. She may have already gleaned some information from her conversations with the medium."
-		]
+		],
+		"clues": [],
+		"characters": ["madame_isis", "pearl_leblanc"]
+	},
+	{
+		"tag": "addie_needs_answers",
+		"name": "Addie Needs Answers",
+		"type": "alternate",
+		"lead_ins": "temple_of_nephthys",
+		"lead_outs": "men_gone_missing",
+		"chunks": [{
+				"text": [
+					"Time hasn’t treated Addie Sims kindly. Her shabby clothes hang around her thin frame, as though she’s lost weight and hasn’t had the money to buy anything new or the time and energy to take in her old clothes. Viv has seen her type before: women shepherding three children in a breadline while looking as though they never ate enough of the bread themselves. Play Addie as fidgeting, ready to bolt at any instant if she sees someone who knows her and might tell her minister. She’s only come because nobody else could give her answers.",
+					"Viv finds her at the Temple of Nephthys, although she doesn’t need to attend a “communion” to do so. Viv can use Reassurance, telling her about her investigation into the disappearance of another electrician or simply approach Addie as another seeker after the spiritual. In response to the right questions about her husband’s disappearance, Addie provides the following:"
+				],
+				"clues": ["max_her_husband", "as_far_as_she", "she_tried_asking", "addie_knows_about", "its_not_like", "yes_shes_visited", "no_addie_hasnt"]
+			},
+			{
+				"text": ["When Viv leaves, Addie tells her the address of the tenement where she lives, and begs Viv to tell her if she hears anything about Max. If Viv does so during the denouement, she earns Edge 11, “Good Citizen.”"]
+			}
+		],
+		"characters": ["addie_sims"]
+	},
+	{
+		"tag": "the_thing_in_the_morgue",
+		"name": "The Thing in the Morgue",
+		"type": "pipe",
+		"lead_ins": ["what_the_cops_know", "the_peculiar_death_of_myron_fink", "interviewing_the_neighbors"],
+		"chunks": [{
+				"text": [
+					"Besides answering questions about things which occurred before the story started, this scene serves as pipe to establish the horror that Viv will face if things go badly for her. She’ll find the body at the official mortuary for the medical examiner, located in Bellevue Hospital’s (see p. 173) Pathological Building on East 29th Street. The crowd of over a hundred thousand outpatients that flows in and out of the hospital daily provides her with some anonymity, although it thins out near the morgue.",
+					"If Viv spoke to Lt. O’Connor in “What the Cops Know,” she may persuade him to pull some strings with the police coroner, Phil Lenz, for her to get in and see the body. If not, she’ll need to come at night and break into the morgue’s vault. Provided she passes a Stealth Quick Test to make it to the doors of the morgue, a simple use of the Locksmith ability lets Viv open the heavy metal doors."
+				],
+				"challenges": ["getting_into_the_morgue"]
+			},
+			{
+				"subheading": "Viewing the Body",
+				"text": [
+					"Whether or not Lenz shows her the body, the scene follows a similar course. Viv must first walk through a room of sheet-covered wooden dissection tables and instruments to get to the mortuary’s cold chamber. The mortuary handles the hospital’s many dead, including victims of accidents and murder. During the day, medical students bend over a few corpses on the tables, bone saws, scalpels, and forceps in hand. At night, Viv moves through chilly silence and shadow.",
+					"Beyond the main dissection room, Viv comes to the vault where the bodies are stored. The building’s subterranean stone construction provides a certain natural coolness which is augmented by a loud industrial refrigeration system, but they only do so much to hide the odor of death. Anyone who doesn’t spend regular time down here initially chokes on the thick, sweet smell as they open the door. If present, Lenz offers Viv a scented handkerchief.",
+					"The shelves of the cold chamber make it resemble a grotesque bunk-house. Without Lenz’s help, Viv takes a few minutes to locate the corpse. Using Evidence Collection to check ankles and toes for identification, she soon notes the bodies lie in a rough chronological order. Fink — what remains of him — rests in a top bunk. To get a good view of the body at night, Viv may pull up a small- but-sturdy stepladder which provides attendants adequate balance to move hundreds of pounds. During the day, Lenz calls in a single medical student to wrest Fink down.",
+					"By now, Fink’s body has taken on the greenish- blue color of early decomposition. The coroner closed Fink’s staring eyes, but his mouth continues to gape in horror. Round, purpling bruises score his torso and one arm. In the center of each bruise, Viv sees a puncture wound over a small, hard lump. Several lumps have been excised for analysis, leaving gouges. Below his torso? A bag holds in what intestines remain and below that — nothing. The ends of his flesh appear ragged, as if torn off with an act of extreme force."
+				],
+				"challenges": ["seeing_finks_remains"]
+			},
+			{
+				"text": [
+					"Evidence Collection: Either through talking to Lenz or by reading the autopsy notes, Viv learns that Fink died of a “massive coronary event.” In lay terms, his heart gave out. The bruising and mutila- tion to his body occurred immediately after death, leaving venom directly under the skin instead of filtering into his bloodstream. Give the player time to connect this venom to the puncture-marks Viv saw in the center of the bruises. The venom’s composition doesn’t match any known species, but it most closely resembles that of jellyfish. The autopsy notes include several photographs of the bruising. If visiting the morgue during the day, Viv may grab one on a Difficulty 4 Quick Filch Test.",
+					"Photography: If Viv shows photographs of Fink’s corpse to her nurse Source, Louisa pulls down a book on animal attacks with a photograph of a leg with a similar coil of bruises around it. But how could a squid attack someone on dry land?"
+				]
+			},
+			{
+				"subheading": "Chewed Out",
+				"text": [
+					"If the guards catch Viv attempting to break into the morgue, they’ll hold her for Lt. MacAdams. The player certainly could try using a Fighting Quick Test to break free while one policeman phones the station, but this would result in a city-wide hunt for her. MacAdams picks her up in an unmarked car and drives her home. On the way, he lectures Viv about interfering with police investigations, emphasizes that a twisted killer remains on the loose, and warns her to keep her nose — and her notepad — out of the whole business. Possible responses to points she may raise:"
+				],
+				"clues": ["of_course_the", "august_williams_clearly", "murders_dont_always", "yes_he_knows"]
+			},
+			{
+				"text": ["When dropping her off at her apartment (or place of work, in the daytime), he notes that he won’t escort her inside for the sake of her reputation, but vaguely threatens that he’ll look her up if he hears about her interfering again in this case. See “Antagonist Reactions.”"]
+			}
+		],
+		"characters": ["joseph_oconnor", "myron_fink"]
+	},
+	{
+		"tag": "miracle_machine",
+		"type": "core",
+		"lead_ins": ["georges_apartment", "questioning_pearl", "temple_of_nephthys"],
+		"lead_outs": ["going_on_the_grid"],
+		"chunks": [{
+				"text": [
+					"Viv may take the schematics for George’s machine to either her scientific Source, Nettie Rice, or to Charlie for her electrical expertise. If the player holds the card “Soft Spot” and doesn’t consider the possibility of calling up Charlie on her own, the GM should prompt her. In keeping with Problem cards, the desire to see Charlie again sets up Viv for more trouble — this time with Fuller.",
+					"Nettie moves stacks of papers to the floor in order to create enough desk space to look at the schematics. If Viv takes them to Charlie, see “Catching Fuller’s Eye” below. Either way, Viv learns the following facts about the schematics from her contact:"
+				],
+				"clues": ["these_schematics_are", "from_what_she", "for_something_probably"]
+			},
+			{
+				"text": ["If Madame Isis had the schematics briefly, their incompleteness explains why she gave them back without any reticence."]
+			},
+			{
+				"subheading": "Catching Fuller’s Eye",
+				"text": ["If Viv brings the schematics to Charlie at work, she attracts the attention of Mr. Fuller, who attempts to buy them from her: “No good to you, might as well see what my boys... and Charlie... can make of ’em.” Turning him down may lead to an Antagonist Reaction later on."],
+				"challenges": ["cash_in_hand"]
+			}
+		],
+		"characters": ["nettie_rice", "charlie_fitzpatrick", "howard_fuller"]
+	},
+	{
+		"tag": "the_leg_breaker",
+		"name": "The Leg-Breaker",
+		"type": "alternate",
+		"lead_ins": ["temple_of_nephthys", "men_gone_missing"],
+		"lead_outs": ["charlie_comes_clean", "breaking_into_fullers"],
+		"chunks": [{
+				"text": [
+					"Like an Antagonist Reaction, this scene may occur at several points in the adventure. Logically, it takes place sometime after Viv visits the “Temple of Nephthys” or investigates “Men Gone Missing” and learns that a mob loan enforcer might have it out for Preston. However, if the player visits the temple early in the adventure, the GM may choose to hold this scene until Viv has also visited “George’s Apartment” or after she’s seen “The Thing in the Morgue.”",
+					"When leaving the temple, apartment building, or morgue (as described above), Viv must make the following test to realize that someone’s shadowing her."
+				],
+				"challenges": ["spotting_marty_the_mouth", "pinning_marty", "jumped_by_marty"]
+			},
+			{
+				"subheading": "Marty Runs His Mouth",
+				"text": [
+					"The man identifies himself as “Marty.” Streetwise: Combining the name and profession, Viv can make an educated guess that this is “Marty the Mouth,” a low-level enforcer for the Luciano crime family. Once Viv and Marty have squared off and she secures his cooperation, he reveals the following in response to questions:"
+				],
+				"clues": ["marty_is_also", "preston_had_borrowed", "yeah_he_waited", "hes_heard_the", "how_much_does", "hed_hoped_to", "marty_doesnt_know", "the_night_preston", "he_only_saw"]
+			},
+			{
+				"text": [
+					"After talking to Marty, Viv may attempt to resolve Problem 17. Possible solutions:",
+					"Bargain: Viv trades the notebook for some nonspecific favor in the future. Take on Problem 18 , “I Owe You One.”",
+					"Describe how Viv uses a Push to convince Marty that he won’t learn more from the notebook.",
+					"Reassurance: Viv promises to let Marty know when she finds George, or at least finds out what happened to him. Problem 19 , “Two Masters.”"
+				]
+			}
+		],
+		"characters": ["marty_the_mouth"]
+	},
+	{
+		"tag": "going_on_the_grid",
+		"name": "Going on the Grid",
+		"type": "core",
+		"lead_ins": ["miracle_machine", "interviewing_the_neighbors"],
+		"lead_outs": ["breaking_into_fullers"],
+		"chunks": [{
+			"text": [
+				"Just east of Union Square, the 26-story Consolidated Gas building stands out less for its giant clock than for the miniature temple and enormous bronze lantern at its pinnacle. Even if Viv has never gone inside the building before, she’s used its nighttime illumination as a landmark.",
+				"Viv’s contact, Marie Lewis, works in an open, overcrowded office on one of the middle floors. She and her fellow dispatchers take phone calls, map the locations and types of complaint, and relay the messages to teams of repairmen. The process involves a great deal of bustle, internal phone calls, and notes.",
+				"Bureaucracy: A quick observation of the dispatchers at work leads Viv to notice the im- portance of “The Ledger,” a central book in which they record all incoming calls and resolutions. If Viv gets time to go through The Ledger, she may be able to find out if any similar disturbances have been reported. When she mentions it to Marie or the other women, they’ll complain that their man- ager, Mr. Goddell, often takes the women to task over the number of open calls, entirely unjustly, as they can’t control the speed or number of repair crews.",
+				"Viv may make any kind of Bargain with Marie for a chance to take notes on The Ledger. An obvious solution would be to offer to keep it updated for the rest of the dispatchers as she copies out relevant entries.",
+				"From The Ledger, Viv may piece together the following:"
+			],
+			"clues": ["the_entry_for", "by_the_time", "the_ledger_shows", "the_calls_north", "at_the_center"]
+		}],
+		"characters": ["marie_lewis"]
+	},
+	{
+		"tag": "men_gone_missing",
+		"name": "Men Gone Missing",
+		"type": "alternate",
+		"lead_ins": ["addie_needs_answers"],
+		"lead_outs": ["the_leg_breaker", "breaking_into_fullers"],
+		"chunks": [{
+				"text": [
+					"The crowd outside Fuller’s has thinned since Viv first visited the shop. Perhaps with George’s disappearance now a thing of the past, fewer men think they have a chance at his job. Perhaps the odd goings-on with the other men Fuller’s brought in have made them change their minds. She still encounters five or six men having a smoke and shooting the breeze.",
+					"It takes a while to get the men to warm up to her. A judicious use of Bargain might offer them some of her cigarettes or to buy anyone who’ll talk to her a cup of coffee. Viv may even want to pull out Inspiration: two good (well, close enough) men have disappeared in a single week: wouldn’t they want their families to have answers if it was them? One of the men, Herbert Roach, appears willing to talk, but he’d rather do it somewhere other than here. Viv can get answers out of him at a nearby diner or in an alley out of sight of the main door. Once sufficiently warmed by coffee, a cigarette, or the fire of Inspiration, Roach nervously reveals the following:"
+				],
+				"clues": ["hes_only_here", "far_as_he", "why_doesnt_he", "no_he_hasnt", "the_really_strange"]
+			},
+			{
+				"text": [
+					"If Viv visits Fuller, he gives her the same brush- off he would in “Fuller Himself” (p. 183), that the men’s work didn’t pass muster. Pressing the issue of the men, or otherwise going inside on this er- rand, means Viv faces the Challenge “Getting Past the Guards” in “Breaking Into Fuller’s.”",
+					"Viv may decide to make especially sure about the missing men, in which case Roach gives her names and buildings of three he can think of, and she gets the attached responses from wives:"
+				],
+				"clues": ["wife_rose_hasnt", "no_his_wife", "no_wife_if"]
+			}
+		],
+		"characters": ["herbert_roach"]
+	},
+	{
+
+		"tag": "charlie_comes_clean",
+		"name": "Charlie Comes Clean",
+		"type": "alternate",
+		"lead_ins": ["the_leg_breaker"],
+		"lead_outs": ["breaking_into_fullers"],
+		"chunks": [{
+			"text": [
+				"Armed with the knowledge that Charlie’s been holding out on her, Viv may wish to question her again. At first, Charlie vehemently insists that she told Viv everything she knows, taking great offense that Viv doubts her word. Once Viv reveals her new information, Charlie’s resistance breaks down and she confesses her full knowledge of that night.",
+				"As far as Charlie knows, George could have split. She came back late to drop off some equipment she’d... borrowed. Normally it was just George there, working on his machine. She wryly admits that she probably didn’t have to return the equipment as long as she brought it into work the next day, but she liked to make sure George went home and got at least a little shut-eye.",
+				"Viv may recognize Charlie’s fear of having her name attached to this information. It takes Reassurance to convince Charlie that Viv won’t name her as a source in print or go straight to Fuller with anything Charlie tells her. All she knows is she found Mr. Fuller at George’s desk, looking over some of his schematics. The machine was there too, but no George. Fuller convinced her to help “put it away” for safekeeping and said George must have forgotten when he left. That wasn’t like George, but Charlie thought no harm would be done if they put it away at the shop. George had been worked up, after all — maybe he was frustrated. She figured George would come in the next day, same as always.",
+				"But then George didn’t come in, and eventually the police did. She tried talking to Mr. Fuller about it, only, the night before, Fuller saw the tools Charlie had borrowed. Now Fuller’s threatening her into silence with the threat not just of losing her job (“I’ve got a mother at home and a kid sister. It took George pushing to get me this job. I’d have to go back to a waitress’ salary and men pinching me”) but of reporting her to the police for theft. If the police booked her for that, they’d probably find out she’s been wiring houses too — off the books and without a license (“I want to put my sister through college so she can get out of this place”). Things could get real bad for her. She can’t prove Fuller knows anything — what kind of evidence is finding him in his own shop at night? She’s been keeping quiet, but it eats her up inside.",
+				"If Viv makes the request while Pushing with Inspiration or Flattery, she may persuade Charlie to investigate Fuller’s with her. Alternately, not bringing Charlie (or losing her if Viv gets knocked out) may provide a more satisfying horror ending in “Breaking into Fuller’s.” If the player wants more muscle, she may also consider bringing a Source, Esteban Manuel Aragon Gonzalez or even Lt. O’Connor, or Marty if he owes her a favor.",
+				"As in “Men Gone Missing,” if she bursts into Fuller’s to question Charlie the second time, Viv faces the Challenge “Getting Past the Guards” in “Breaking into Fuller’s.”"
+			]
+		}],
+		"characters": ["charlie_fitzpatrick"]
+	},
+	{
+		"tag": "breaking_into_fullers",
+		"name": "Breaking Into Fuller's",
+		"type": "conclusion",
+		"lead_ins": ["going_on_the_grid", "men_gone_missing", "charlie_comes_clean"],
+		"lead_outs": ["sadie_and_the_scoop"],
+		"chunks": [{
+				"text": [
+					"If Viv has re-questioned Fuller, come into the building to question Charlie a second time, or spent too much time talking to men outside his shop, Fuller gets wise to her line of thinking and hires some extra protection. The Keeper may also deploy them if Viv lets a night elapse between her conversation with Charlie and breaking in: Charlie’s begun to think about going to the police, and Fuller can see it in her eyes. Otherwise skip “Getting Past the Guards.”"
+				],
+				"challenges": ["getting_past_the_guards"]
+			},
+			{
+				"text": [
+					"Outside the building, the streetlights begin to fritz. Assuming Viv gets safely past any guards, a use of Locksmith gets her through the back door, into a darkened storage room in the rear of the shop. Through the door she can see a crack of flickering light. She hears a non-mechanical hum: an eerie sound that makes her think of sailors’ descriptions of the song of whales.",
+					"Viv can glance through the door long enough to see a figure tied to a chair and strange beings floating in the harsh spotlight around him. The strange beings appear blobby and luminescent, but alien and disturbing. If Viv neither brought Charlie with her and the scene “Charlie Comes Clean” didn’t occur immediately previous to this, she recognizes the figure in the chair as Charlie. In this case, players holding “Soft Spot” take a −2 to either of the following Challenges. Otherwise, it’s one of the job-seekers she has seen massed outside Fuller’s. Just then, a swirling mass of translucent tentacles moves in from the edge of the spotlight. She may choose to look away and examine the “Body in the Chair” afterward; to watch and face the test “Watching the Devourer;” or to burst in and interrupt, in which case the action skips to “They Came from Beyond.” Examining the corpse after “Watching the Devourer” does not trigger the “Body in the Chair” test.",
+					"The action is over in a matter of horrifying moments. A wise player would have Viv look away, in which case she hears squishing, snapping, and a muffled scream. If Viv keeps watching, she sees a writhing, iridescent mass of tentacles and claws swarm over the body, which lets out a muffled scream before being devoured. The tentacles wrap it tight, and pincers begin snipping off pieces of flesh and passing them into a dark maw, eventually devouring the flesh and organs, leaving parts of a skeleton with ragged ends of muscle and tissue hanging off. The body’s clothes, neatly snipped by the pincers, lie on the floor at its feet. Once the beast ceases feeding, Viv can sense it looking for its next prey — at which point it suddenly vanishes.",
+					"If Viv brought company, they pass out as Viv undergoes either of the next two tests. If Viv fails her run-ins with Fuller, she comes to with her companion tied up beside her. Otherwise, she can shake them back to a dazed consciousness and have them help her handle Fuller."
+				],
+				"challenges": ["watching_the_devourer"]
+			},
+			{
+				"text": [
+					"Use the description of what happened to it to formulate an approximation of what she finds."
+				],
+				"challenges": ["body_in_the_chair"]
+			},
+			{
+				"text": ["Either way, if she examines the body and scrutinizes the seemingly empty warehouse, she must make the following test to “Dodge the Chloroform."],
+				"challenges": ["dodge_the_chloroform"]
+			},
+			{
+				"subheading": "Fuller Fesses Up",
+				"text": [
+					"Whether he shouts it down from his darkened office with his hand on the switch that powers Preston’s machine or mutters it while tied to the chair himself, Fuller can fill Viv in on the details of the situation. By now, she might be surprised to learn that he didn’t kill George Preston, but he pushes the point, ignoring the collateral damage he has caused since.",
+					"George Preston caused the first two deaths, Fink’s and his own. The first was an accident. The light from Fink’s room must have drawn the at- tention of the creature while it ignored Preston’s lightless room. That night after work, with Charlie having slipped out, Preston broke down and con- fessed the whole thing to Fuller, begging the older man to destroy his device — but only after he let beasts from beyond kill him in the same way they had eaten Fink. To him, this seemed like the only way he could atone for Fink’s death. Fuller didn’t believe a word of it, instead thinking the kid had finally snapped from too many nights working late. Maybe he’d killed his neighbor, but nothing else made sense.",
+					"Only after Fuller watched from his darkened office did he believe Preston’s story. He threw the emergency switch to cut power to the kid’s bench, but it was too late. Viv senses excitement, rather than horror in his voice. In Fuller’s opinion Preston was a coward, afraid of his own success. If the world at the edge of our vision isn’t made up of ghosts but of something much more horrible, that just makes his invention more valuable.",
+					"All Fuller needs now are those damn schematics so he can reproduce the machine — as a weapon. With the news from Europe, he knows it’ll be a seller’s market soon enough and this could change things the way gas did in the Great War. And Charlie (if he killed or captured her)? He could tell it was only a matter of time before she went to the police — doesn’t have the sense to keep her head down.",
+					"The thing Viv saw? That isn’t the only kind of beast out there, that’s just his “pet” — the one who’s learned to come when Fuller switches on the device. He’s seen far more than that: big, stupid, whale-like blobs and swarms of tiny creatures which pick over and devour the remains. You’d never know anyone had died. (Fuller isn’t naïve about his “pet.” He switches off the machine once it loses interest in a body, only switching it on a few minutes later to attract the scavengers who remove the corpse. If the “pet” can see beyond the light, Fuller doesn’t want to find out firsthand.)"
+				]
+			},
+			{
+				"subheading": "Tied to the Chair",
+				"text": [
+					"Her head splitting, Viv comes back to full con- sciousness to find herself tied to a chair (with any companions beside her) on the main floor of the repair shop. Lights from the workbenches, meant to illuminate detail work, encircle her in a painful glare. She has difficulty making out any details be- hind the brightness. Once Fuller sees she’s woken up, he monologues details from “Fuller Fesses Up” above as he switches on the machine, triggering the test “They Came from Beyond.”",
+					"Though Viv gets a chance to escape, the ma- chine begins to take effect, revealing sights and sounds from a plane of reality bordering on our own. It takes some time for the creature to realize Fuller has set out a second meal. In the meantime, other strange beasts walk or float by Viv as she takes fights for Stability and takes stock of her situation."
+				],
+				"challenges": ["they_came_from_beyond"]
+			},
+			{
+				"subheading": "Confronting the “Pet”",
+				"text": [
+					"After either rushing in to save the captive in the chair, or being captured by Fuller and making the Stability Challenge “They Came from Beyond” (whether Advance or Setback), Viv may attempt to escape without being eaten. She may use Quick Tests (Advance 4+, but any failed test increases the Difficulty of the next Quick Test of any kind by 1) as proposed by the player. If tied up by Fuller, she can use Athletics to untie her hands or Preparedness to have a pocketknife Fuller didn’t think to check for. A successful Quick Test of Athletics or Fleeing, if Fuller has spotted her, gets her into the darkness where she can pull the plug to the machine, flip the wall switch to the desk, smash the machine, shoot it (the canonical method of destruction), or even propose a way to switch on the light in Fuller’s office, turning the creature’s attention to him. If she fails the tests and the Difficulty gets too high? Move on to the coda and Viv’s last thoughts.",
+					"How Viv resolves the situation if she escapes the creatures depends entirely on the player and her goals. She may wish to hold Fuller at gunpoint, if she has a gun, and force him to confess to his crimes. She may knock him cold or shoot him in the legs, and leave him for the police. She may prefer to rely on her two dice in Fleeing and try to grab any schematics (appropriate on whatever the GM considers a high success) as she escapes, calling in a tip for MacAdams to check out the repair shop."
+				]
+			}
+		],
+		"characters": ["howard_fuller", "charlie_fitzpatrick"]
+	},
+	{
+		"tag": "sadie_and_the_scoop",
+		"name": "Sadie and the Scoop",
+		"type": "denouement",
+		"lead_ins": ["breaking_into_fullers"],
+		"chunks": [{
+			"text": [
+				"After wrapping things up at Fuller’s, Viv can report back to Preston’s fiancée. How much she chooses to reveal is up to the player. Perhaps Sadie only needs to know that her fiancé’s device backfired, killing him, and his boss covered it up. Sadie mourns, but accepts that sometimes brilliant inventors pay a price for their genius. Viv gets the sense that even if she moves on, Sadie will always canonize George in her mind. Viv may use Edges such as “Good Citizen” or “Marty’s Respect” to talk someone into finding Sadie another job.",
+				"Did Viv leave Fuller alive and not call the police? If so, Petunia Adams finds him the next morning, swinging from the iron walkway to his office. Viv hears about this when a fellow journalist covering the story remembers her interest in the place.",
+				"If Viv retrieves the schematics but does not destroy them, she comes home several days later to find out from her landlady that the police raided her apartment and confiscated some drawings they said were stolen from their investigation. She can only imagine where they might end up.",
+				"As for Charlie, if she somehow survived the ordeal, Viv may make overtures — but learns that she plans to take her mother and sister and leave the city. She wants to put as much distance between her and these horrors as she can — though she’ll never be able to shake off her newfound knowledge.",
+				"Use these possible endings to help the player craft a suitable coda for the story."
+			]
+		}]
 	}
 ]
