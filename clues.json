@@ -93,12 +93,6 @@
 		"leads_to": "what_the_cops_know"
 	},
 	{
-		"tag": "in_the_newsroom",
-		"description": "Research: In the newsroom’s archives, the only stories Viv can find about Fuller involve a 1929 lawsuit in which a competitor charged him with monopolistic practices. The competitor folded in the aftermath of the Crash, and dropped the suit.",
-		"known": false,
-		"investigative_ability": "research"
-	},
-	{
 		"tag": "she_always_thought",
 		"description": "She always thought George different from the other boys. Bit of a dreamer. Sometimes used to just stare off into space. Why, one time she thought she saw him squinting as though he were trying to see something just out of view.",
 		"known": false,
