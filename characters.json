@@ -19,7 +19,7 @@
 		"name": "George Preston",
 		"age": 23,
 		"alive": false,
-		"description": "Always a tinkerer, he sought to unlock the secrets of the human brain. Unfortunately, his “sympathetic resonator” proved fatal in a way he never anticipated",
+		"description": "Always a tinkerer, he sought to unlock the secrets of the human brain. Unfortunately, his \"sympathetic resonator\" proved fatal in a way he never anticipated",
 		"relation_to_player": "victim",
 		"occupation": "mechanic / inventor",
 		"knows": ["sadie_cain", "howard_fuller", "charlie_fitzpatrick"],
@@ -55,7 +55,7 @@
 		"name": "Charlie (Charlene) Fitzpatrick",
 		"age": 23,
 		"alive": true,
-		"description": "The victim’s best friend since childhood, a hard-eyed, talented woman working as an electrician alongside George. Charlie feels guilt and anxiety over having brushed off George the night he disappeared.",
+		"description": "The victim's best friend since childhood, a hard-eyed, talented woman working as an electrician alongside George. Charlie feels guilt and anxiety over having brushed off George the night he disappeared.",
 		"occupation": "mechanic",
 		"knows": ["george_preston", "howard_fuller"]
 	},
@@ -64,7 +64,7 @@
 		"name": "Howard Fuller",
 		"age": 47,
 		"alive": true,
-		"description": "Owner of Fuller’s Electrical Repair. Ruthlessly cut-throat in business matters, Fuller spends his days in an upper-floor office overlooking his men’s work. He could answer the riddle of Preston’s disappearance, but doing so would force him to reveal the true creator of the machine he hopes to pass off as his own invention. It might also raise questions about subsequent disappearances.",
+		"description": "Owner of Fuller's Electrical Repair. Ruthlessly cut-throat in business matters, Fuller spends his days in an upper-floor office overlooking his men's work. He could answer the riddle of Preston's disappearance, but doing so would force him to reveal the true creator of the machine he hopes to pass off as his own invention. It might also raise questions about subsequent disappearances.",
 		"occupation": "Head of Fuller's Electrical Repair",
 		"knows": ["george_preston", "charlie_fitzpatrick", "petunia_adams"],
 		"relationship_with": [{
@@ -89,7 +89,7 @@
 		"name": "Clarence Simpson",
 		"age": 68,
 		"alive": true,
-		"description": "George Preston’s thin, beak-nosed landlord. Generally lazy, and can go for months without needing to do any real business for the apartment-house other than collecting monthly rents. Extremely put out by the death and by having the police in his building.",
+		"description": "George Preston's thin, beak-nosed landlord. Generally lazy, and can go for months without needing to do any real business for the apartment-house other than collecting monthly rents. Extremely put out by the death and by having the police in his building.",
 		"occupation": "landlord",
 		"knows": ["george_preston"]
 	},
@@ -98,7 +98,7 @@
 		"name": "Pearl LeBlanc",
 		"age": 18,
 		"alive": true,
-		"description": "A stenographer and devout acolyte of the Temple of Nephthys. Pearl would do anything for Madame Isis, who channels the ghost of her beloved elder sister Louisa any time Pearl’s devotion seems to flag.",
+		"description": "A stenographer and devout acolyte of the Temple of Nephthys. Pearl would do anything for Madame Isis, who channels the ghost of her beloved elder sister Louisa any time Pearl's devotion seems to flag.",
 		"occupation": "acolyte",
 		"knows": ["madame_isis"],
 		"relationship_with": [{
@@ -120,7 +120,7 @@
 		"name": "Hereward Carrington",
 		"age": 55,
 		"alive": true,
-		"description": "Investigator of psychic phenomena and frequent de- bunker of fraudulent mediums. Like Houdini, Carrington’s researches and publications sug- gest that he wants to believe in the possibility of psychic phenomena. Some contemporaries criticize him for occasional credulity despite his many debunkings.",
+		"description": "Investigator of psychic phenomena and frequent de- bunker of fraudulent mediums. Like Houdini, Carrington's researches and publications sug- gest that he wants to believe in the possibility of psychic phenomena. Some contemporaries criticize him for occasional credulity despite his many debunkings.",
 		"knows": ["george_preston"]
 	},
 	{
@@ -128,7 +128,7 @@
 		"name": "Marty the Mouth",
 		"age": 43,
 		"alive": true,
-		"description": "Low-level enforcer for the Luciano crime family. Affable enough in a tough-guy way, unless you cross his boss or start poking your nose somewhere it doesn’t belong.",
+		"description": "Low-level enforcer for the Luciano crime family. Affable enough in a tough-guy way, unless you cross his boss or start poking your nose somewhere it doesn't belong.",
 		"knows": "george_preston"
 	},
 	{
@@ -137,7 +137,7 @@
 		"age": 36,
 		"alive": true,
 		"occupation": "acolyte/widow",
-		"description": "Anxious client of Madame Isis and wife of one of Fuller’s victims.",
+		"description": "Anxious client of Madame Isis and wife of one of Fuller's victims.",
 		"knows": ["madame_isis"],
 		"relationship_with": [{
 			"character": "madame_isis",
