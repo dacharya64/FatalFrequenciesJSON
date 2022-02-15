@@ -86,7 +86,10 @@
 			},
 			{
 				"text": ["She also discloses the following in response to specific questions:"],
-				"clues": ["she_thinks_george", "no_george_wouldnt", "she_tried_taking", "viv_isnt_the", "notices_that_any", "guesses_that_at"]
+				"clues": ["she_thinks_george", "no_george_wouldnt", "she_tried_taking", "viv_isnt_the"]
+			},
+			{
+				"text": ["Assess Honesty notices that any questions about what Charlie did that night make her nervous. Viv may use Reassurance to convince her she only cares about what happened to George, not what Charlie does with her free time. Charlie discloses that she sometimes does work for \"other clients\" at night to earn a little cash. Bureaucracy guesses that at least some of it is home wiring — for which she would need an additional license she doesn't have, and which could cause her some trouble later on. Charlie gets defensive, claiming that Fuller keeps wages low by pointing out he could replace all of them tomorrow with unemployed men who'd be happy to get half what they make. \"The men here aren't the only ones with family to support!\""]
 			}
 		],
 		"characters": ["charlie_fitzpatrick"]
