@@ -6,6 +6,20 @@
 		"description": "You change lovers as frequently as clothes."
 	},
 	{
+		"tag": "soft_spot",
+		"number": 6,
+		"name": "Soft Spot",
+		"type": "continuity",
+		"description": "Whatever you're feeling for Charlie, it's not entirely professional."
+	},
+	{
+		"tag": "big_talker",
+		"number": 7,
+		"name": "Big Talker",
+		"type": "continuity",
+		"description": "You protested a little too strongly that you just want information about George, and got a bigger response than you bargained on. The GM brings foward men with random and conflicting theories until you either make a Stealth Quick Test to leave them arguing with each other or lose an hour or two listening to them all."
+	},
+	{
 		"tag": "wrenched_ankle",
 		"number": 8,
 		"name": "Wrenched Ankle",

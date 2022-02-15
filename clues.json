@@ -123,6 +123,70 @@
 		"from_specific_question": false
 	},
 	{
+		"tag": "george_asked_her",
+		"description": "George asked her to stay late the last night anyone saw him, seemed down in the dumps, but Charlie had a date and figured on talking to him Friday morning. George's depressed mood came on suddenly. Just the day before, he had 'the same look he got when he first heard voices on his crystal radio set!' Charlie assumed the glum mug meant he had been on the wrong track after all.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "mr_fuller_would",
+		"description": "(Core, 'Fuller Himself') Mr. Fuller would have seen George last, as far as she knows. George normally lets himself out with his own key, maybe around midnight? Surely Mr. Fuller would have said something if he'd seen him. Charlie chastises herself again for not coming in. - She shows her copy of the key and explains that sometimes she'd stop off after a date, just to make sure George had left.",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "fuller_himself"
+	},
+	{
+		"tag": "she_has_known",
+		"description": "She has known George since they were kids together. He practically forced Fuller to hire her - she secretly did all George's repairs for a week, at least as fast and as well as any of the men. She and George worked here since before the Crash. They couldn't pull a stunt like that now, not with so many men looking for work. Charlie doesn't like Fuller much, but at least he's the one man to have the business sense to hire her and he hasn't used the Crash to lower wages (much) or replace them with cheaper unemployed workers.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "charlie_evades_pinning",
+		"description": "Charlie evades pinning down an alibi for the night of George's disappearance, simply saying she spent the evening out and got to bed early",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "she_thinks_george",
+		"description": "She thinks George might have run off. Maybe he cracked when his machine wouldn't work and jumped off the Brooklyn Bridge.",
+		"known": false,
+		"from_specific_question": true
+	},
+	{
+		"tag": "no_george_wouldnt",
+		"description": "(Pipe, 'The Leg-Breaker') No, George wouldn't kill anyone, but he's sensitive. A murder would have upset him. Charlie reluctantly admits she would believe it more readily if George had robbed someone. Building his machine cost him a lot of money he doesn't have. She hints that George may have borrowed unwisely",
+		"known": false,
+		"from_specific_question": true,
+		"leads_to": "the_leg_breaker"
+	},
+	{
+		"tag": "she_tried_taking",
+		"description": "(Core, 'The Peculiar Death of Myron Fink') She tried taking Sadie, 'sweet kid,' by George's apartment, but the landlord has a bee in his bonnet about not letting anyone in. Charlie thinks this irrational, as the police stopped posting a guard there over a day ago.",
+		"known": false,
+		"from_specific_question": true,
+		"leads_to": "the_peculiar_death_of_myron_fink"
+	},
+	{
+		"tag": "viv_isnt_the",
+		"description": "(Pipe, 'Temple ofNephthys') Viv isn't the first lady to come by asking questions about George, but she seems a lot more cool-headed than the other. 'Little, awkward girl, not more than 18 or 19' came by the shop Saturday looking for George. She'd seen this girl talking to George outside recently, but doesn't think George is the type to play around. When the girl heard no one had seen George that day or the day before, she became upset and asked to see his 'miracle machine.' Upon hearing the device had disappeared too, the girl turned frantic and accused them all of stealing it. Mr. Fuller took her up to his office and gave her some brandy to calm her nerves.",
+		"known": false,
+		"from_specific_question": true,
+		"leads_to": "temple_of_nephthys"
+	},
+	{
+		"tag": "notices_that_any",
+		"description": "Assess Honesty notices that any questions about what Charlie did that night make her nervous. Viv may use Reassurance to convince her she only cares about what happened to George, not what Charlie does with her free time. Charlie discloses that she sometimes does work for 'other clients' at night to earn a little cash.",
+		"known": false,
+		"investigative_ability": "assess_honesty"
+	},
+	{
+		"tag": "guesses_that_at",
+		"description": "Bureaucracy guesses that at least some of it is home wiring - for which she would need an additional license she doesn't have, and which could cause her some trouble later on. Charlie gets defensive, claiming that Fuller keeps wages low by pointing out he could replace all of them tomorrow with unemployed men who'd be happy to get half what they make. 'The men here aren't the only ones with family to support!'",
+		"known": false,
+		"investigative_ability": "bureaucracy"
+	},
+	{
 		"tag": "the_original_call",
 		"description": "(Alternate lead-in, “The Peculiar Death of Myron Fink”) The original call reported a disturbance rather than a death. Several tenants of the same building reported strange sounds and seeing things.",
 		"known": false,
@@ -131,7 +195,7 @@
 	},
 	{
 		"tag": "because_nobody_could",
-		"description": "Because nobody could agree on what happened or whether or not the man screamed, the re- sponding beat cop didn’t break down the door, but it wouldn’t have helped anyway.",
+		"description": "Because nobody could agree on what happened or whether or not the man screamed, the responding beat cop didn’t break down the door, but it wouldn’t have helped anyway.",
 		"known": false,
 		"from_specific_question": false
 	},
