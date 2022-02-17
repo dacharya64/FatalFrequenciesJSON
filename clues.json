@@ -300,5 +300,97 @@
 		"description": "As far as he knows, Fink and Preston had no bad blood between them. Fink worked as an accountant, paid his rent on time, and kept himself to himself. Until this week, Simpson considered them two of his easier tenants.",
 		"known": false,
 		"from_specific_question": true
+	},
+	{
+		"tag": "at_first_they",
+		"description": "(Pipe, “Going on the Grid”) At first they worried they were in for a blackout. The power kept flickering but never actually went off. The last time this happened, it was because a drugstore down the street had installed an entire refrigera- tion section in the back which overloaded the grid. (Violet describes this last with the most hand waving; Williams with the least.)",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "going_on_the_grid"
+	},
+	{
+		"tag": "the_sound_might",
+		"description": "The sound might have started as soon as the power began flickering, but they didn’t notice it until they got used to the weird light.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "everything_stopped_a",
+		"description": "Everything stopped a moment after Fink screamed. The lights came up to full brightness and the... things... vanished. See “August Wil- liams” below.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "anyone_telling_her",
+		"description": "(Core, “The Thing in the Morgue”) Anyone telling her about Fink’s body first glances toward Mr. Simpson, if he is present, and lowers their voice to a conspiratorial whisper. Maybe George killed him, but they don’t see how, because... he was bitten clean in half! Police couldn’t find his midsection or legs anywhere.",
+		"known": false,
+		"from_specific_question": false,
+		"leads_to": "the_thing_in_the_morgue"
+	},
+	{
+		"tag": "minnie_lives_in",
+		"description": "Minnie lives in the apartment across the hall and down one from Fink, on the other side from George Preston’s place.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "until_mr_fink",
+		"description": "Until Mr. Fink screamed, she thought she was falling asleep. It gets lonely in the building at night, if she doesn’t go out to the pictures or the diner, and sometimes she just dozes off.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "strangely_once_the",
+		"description": "Strangely, once the power started going, Minnie felt like the whole world had gone silent. No noise of the city, just the buzzing of the electric light. It didn’t feel bad, though, just peaceful, but then the sound started.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "the_sound_made",
+		"description": "The sound made her think of a piano that’s gone out of tune. It wasn’t like a piano’s music, but that way something just feels off and you want to scream or pull out your hair rather than listen to it any more. She had a neighbor in Albany who played her piano day and night, and it grated at her nerves something awful.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "williams_lives_across",
+		"description": "Williams lives across from Minnie Boyer, right on the other side of Myron Fink.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "he_heard_the",
+		"description": "He heard the sound just like the others say, but that’s not all that happened.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "after_a_few",
+		"description": "After a few minutes of it, he went out to find Simpson and complain about the problem with the power. People keep inventing all these newfangled devices without thinking about whether there’s enough power to go around. Should be a law.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "he_couldnt_find",
+		"description": "He couldn’t find Simpson, as usual. When he had almost gotten back to his room, he saw the first... thing. It made him think of a living blimp, floating gently. He slammed and locked he door to his room, but it passed through the wall, almost as though it weren’t made of real stuff. For a few minutes, he sat paralyzed on the bed, watching things like the blimp float or mosey by. Then, right before Fink screamed, he saw something else — like a soap bubble but with claws for arms and what looked like tentacles. He’d have screamed too, if he weren’t too scared to breathe. Its hideous teeth opened — Fink screamed and it moved through the wall into Fink’s room instead. A moment later, it vanished. Everything went back to normal.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "violet_lives_at",
+		"description": "Violet lives at the far end of the hall, nearest the stairs. Assess Honesty gets the sense that, other than the problem with the power, she didn’t experience much of what the others describe. Instead, she piggybacks off their statement so people will listen to her. Viv has encountered the type before in her work.",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "violet_always_had",
+		"description": "Violet always had George figured for the screwy type. Too quiet, always lost in his own world, never really talked to the other tenants. Probably some sort of crazed sex killer, and that’s why he took Fink’s lower half with him. Viv hardly needs an Interpersonal ability to interpret this as “he never paid attention to me.”",
+		"known": false,
+		"from_specific_question": false
+	},
+	{
+		"tag": "growing_serious_violet",
+		"description": "Growing serious, Violet remarks that she’s never seen anything like the expression on Fink’s face. Like something scared him to death before... you know. She couldn’t sleep all that night just thinking about it.",
+		"known": false,
+		"from_specific_question": false
 	}
 ]
