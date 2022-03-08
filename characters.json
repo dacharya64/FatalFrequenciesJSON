@@ -8,7 +8,7 @@
 		"goal": "Find missing fiance",
 		"occupation": "garment worker",
 		"knows": ["george_preston"],
-		"relationship_with": [{
+		"relationships": [{
 			"character": "george_preston",
 			"relationship": "engaged",
 			"valence": "positive"
@@ -19,11 +19,11 @@
 		"name": "George Preston",
 		"age": 23,
 		"alive": false,
-		"description": "Always a tinkerer, he sought to unlock the secrets of the human brain. Unfortunately, his \"sympathetic resonator\" proved fatal in a way he never anticipated",
+		"description": "Always a tinkerer, he sought to unlock the secrets of the human brain. Unfortunately, his 'sympathetic resonator' proved fatal in a way he never anticipated",
 		"relation_to_player": "victim",
 		"occupation": "mechanic / inventor",
 		"knows": ["sadie_cain", "howard_fuller", "charlie_fitzpatrick"],
-		"relationship_with": [{
+		"relationships": [{
 				"character": "marty_the_mouth",
 				"relationship": "owes money to",
 				"valence": "negative"
@@ -67,7 +67,7 @@
 		"description": "Owner of Fuller's Electrical Repair. Ruthlessly cut-throat in business matters, Fuller spends his days in an upper-floor office overlooking his men's work. He could answer the riddle of Preston's disappearance, but doing so would force him to reveal the true creator of the machine he hopes to pass off as his own invention. It might also raise questions about subsequent disappearances.",
 		"occupation": "Head of Fuller's Electrical Repair",
 		"knows": ["george_preston", "charlie_fitzpatrick", "petunia_adams"],
-		"relationship_with": [{
+		"relationships": [{
 				"character": "george_preston",
 				"relationship": "boss of, killer of",
 				"valence": "negative"
@@ -101,7 +101,7 @@
 		"description": "A stenographer and devout acolyte of the Temple of Nephthys. Pearl would do anything for Madame Isis, who channels the ghost of her beloved elder sister Louisa any time Pearl's devotion seems to flag.",
 		"occupation": "acolyte",
 		"knows": ["madame_isis"],
-		"relationship_with": [{
+		"relationships": [{
 			"character": "madame_isis",
 			"relationshp": "devotee of",
 			"valence": "positive"
@@ -129,7 +129,7 @@
 		"age": 43,
 		"alive": true,
 		"description": "Low-level enforcer for the Luciano crime family. Affable enough in a tough-guy way, unless you cross his boss or start poking your nose somewhere it doesn't belong.",
-		"knows": "george_preston"
+		"knows": ["george_preston"]
 	},
 	{
 		"tag": "addie_sims",
@@ -139,7 +139,7 @@
 		"occupation": "acolyte/widow",
 		"description": "Anxious client of Madame Isis and wife of one of Fuller's victims.",
 		"knows": ["madame_isis"],
-		"relationship_with": [{
+		"relationships": [{
 			"character": "madame_isis",
 			"relationshp": "seeking answers from",
 			"valence": "positive"
@@ -193,7 +193,7 @@
 		"name": "Myron Fink",
 		"alive": false,
 		"knows": ["george_preston"],
-		"relationship_with": {
+		"relationships": {
 			"character": "george_preston",
 			"relationship": "neighbor, accidently killed by",
 			"valence": "neutral"

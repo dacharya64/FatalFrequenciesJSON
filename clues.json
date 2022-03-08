@@ -18,7 +18,7 @@
 	},
 	{
 		"tag": "as_nobody_important",
-		"description": "As \"nobody important, just a garment worker... or I was until the police told the floor manager my fiancé was a murderer\" Sadie doesn't have the money to hire one of those private investigators.",
+		"description": "As 'nobody important, just a garment worker... or I was until the police told the floor manager my fiancé was a murderer' Sadie doesn't have the money to hire one of those private investigators.",
 		"known": false,
 		"from_specific_question": false
 	},
@@ -61,14 +61,14 @@
 	},
 	{
 		"tag": "george_didnt_have",
-		"description": "(Core, \"Charming Charlie\") George didn't have a lot of friends, but he grew up with one of his coworkers — Charlie Fitzpatrick. As kids, they'd planned to travel the world together.",
+		"description": "(Core, 'Charming Charlie') George didn't have a lot of friends, but he grew up with one of his coworkers — Charlie Fitzpatrick. As kids, they'd planned to travel the world together.",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "charming_charlie"
 	},
 	{
 		"tag": "george_rents_a",
-		"description": "Core, \"The Peculiar Death of Myron Fink\") George rents a one-room apartment in one of the decrepit older buildings up by the Navy Yard. \"Just until we have enough money for one of the nicer new apartments.\" The landlord, Mr. Simpson, won't let her into his room.",
+		"description": "Core, 'The Peculiar Death of Myron Fink') George rents a one-room apartment in one of the decrepit older buildings up by the Navy Yard. 'Just until we have enough money for one of the nicer new apartments.' The landlord, Mr. Simpson, won't let her into his room.",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "the_peculiar_death_of_myron_fink"
@@ -87,7 +87,7 @@
 	},
 	{
 		"tag": "the_police_questioned",
-		"description": "(Alternate, \"What the Cops Know\") The police questioned her several times, but all she knows is what they told her — someone in George's building got killed. And they insist George did it.",
+		"description": "(Alternate, 'What the Cops Know') The police questioned her several times, but all she knows is what they told her — someone in George's building got killed. And they insist George did it.",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "what_the_cops_know"
@@ -136,21 +136,21 @@
 	},
 	{
 		"tag": "if_she_wants",
-		"description": "(Core, \"Charming Charlie\") If she wants to know more about George, she should talk to Charlie Fitzpatrick. Fuller indicates her on the floor below. Those two grew up together, and are still thick as thieves. It was George who talked him into hiring Charlie.",
+		"description": "(Core, 'Charming Charlie') If she wants to know more about George, she should talk to Charlie Fitzpatrick. Fuller indicates her on the floor below. Those two grew up together, and are still thick as thieves. It was George who talked him into hiring Charlie.",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "charming_charlie"
 	},
 	{
 		"tag": "had_he_thought",
-		"description": "(Alternate, \"What the Cops Know\") Had he thought of George as a murderer? No, but you know those sensitive types and the police make a good case. Why else would he have run off ?",
+		"description": "(Alternate, 'What the Cops Know') Had he thought of George as a murderer? No, but you know those sensitive types and the police make a good case. Why else would he have run off ?",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "what_the_cops_know"
 	},
 	{
 		"tag": "george_never_leaves",
-		"description": "(Core \"George's Apartment\") George never leaves the device here; he must have taken it home to his apartment.",
+		"description": "(Core 'George's Apartment') George never leaves the device here; he must have taken it home to his apartment.",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "georges_apartment"
@@ -163,7 +163,7 @@
 	},
 	{
 		"tag": "either_prompted_by",
-		"description": "(Core, \"Temple of Nephthys\") Either prompted by Viv's questioning him about the dame Char- lie mentions, or remembering just as Viv turns to leave the office, Fuller brings up the other girl who came by on Saturday asking about George. \"Pearl something-or-other. She gave me a card. Ah, there it is.\" From under a heap on his desk, he produces a card bearing the name Madame Isis Neferi, a phone number, a street address in Brooklyn Heights, and Temple of Nephthys. \"Madame Isis, that wasn't her, but she begged me to call her if George came back or I got a lead on what she called his ‘miracle machine.' Strange girl.\"",
+		"description": "(Core, 'Temple of Nephthys') Either prompted by Viv's questioning him about the dame Char- lie mentions, or remembering just as Viv turns to leave the office, Fuller brings up the other girl who came by on Saturday asking about George. 'Pearl something-or-other. She gave me a card. Ah, there it is.' From under a heap on his desk, he produces a card bearing the name Madame Isis Neferi, a phone number, a street address in Brooklyn Heights, and Temple of Nephthys. 'Madame Isis, that wasn't her, but she begged me to call her if George came back or I got a lead on what she called his ‘miracle machine.' Strange girl.'",
 		"known": false,
 		"from_specific_question": true
 	},
@@ -221,7 +221,7 @@
 	},
 	{
 		"tag": "the_original_call",
-		"description": "(Alternate lead-in, \"The Peculiar Death of Myron Fink\") The original call reported a disturbance rather than a death. Several tenants of the same building reported strange sounds and seeing things.",
+		"description": "(Alternate lead-in, 'The Peculiar Death of Myron Fink') The original call reported a disturbance rather than a death. Several tenants of the same building reported strange sounds and seeing things.",
 		"known": false,
 		"from_specific_question": false,
 		"leads_to": "the_peculiar_death_of_myron_fink"
@@ -234,7 +234,7 @@
 	},
 	{
 		"tag": "as_far_as",
-		"description": "(Alternate lead-in, \"The Thing in the Morgue\") As far as he knows, the body hasn't yet left Bellevue (Bureaucracy: the morgue at Bellevue Hospital, on 29th Street).",
+		"description": "(Alternate lead-in, 'The Thing in the Morgue') As far as he knows, the body hasn't yet left Bellevue (Bureaucracy: the morgue at Bellevue Hospital, on 29th Street).",
 		"known": false,
 		"from_specific_question": false,
 		"leads_to": "the_thing_in_the_morgue"
@@ -253,13 +253,13 @@
 	},
 	{
 		"tag": "he_hasnt_seen",
-		"description": "(Alternate lead-in, \"The Thing in the Morgue\") He hasn't seen the body, and he doesn't plan on it. Several of the policemen on the case show signs of drinking harder than usual. One hasn't slept since: just keeps drinking coffee to stay awake. If Viv is sure she wants to see it, he might be able to pull some strings and get her in.",
+		"description": "(Alternate lead-in, 'The Thing in the Morgue') He hasn't seen the body, and he doesn't plan on it. Several of the policemen on the case show signs of drinking harder than usual. One hasn't slept since: just keeps drinking coffee to stay awake. If Viv is sure she wants to see it, he might be able to pull some strings and get her in.",
 		"known": false,
 		"from_specific_question": true
 	},
 	{
 		"tag": "on_that_fateful",
-		"description": "On that fateful night, he had gone to the moving pictures. \"Normally, you wouldn't find a quieter convent. I haven't had to stay on the premises all day and night.\"",
+		"description": "On that fateful night, he had gone to the moving pictures. 'Normally, you wouldn't find a quieter convent. I haven't had to stay on the premises all day and night.'",
 		"known": false,
 		"from_specific_question": false
 	},
@@ -271,7 +271,7 @@
 	},
 	{
 		"tag": "nobody_could_get",
-		"description": "(Pipe, \"The Thing in the Morgue\") Nobody could get the door open until he came back from the pictures, which wasn't until after midnight. When he opened it, they found Fink dead. \"Couldn't have saved him, though, not in a condition that serious.\" He immediately called the police. Police didn't even bother calling a doctor; coroner took him straight to the morgue.",
+		"description": "(Pipe, 'The Thing in the Morgue') Nobody could get the door open until he came back from the pictures, which wasn't until after midnight. When he opened it, they found Fink dead. 'Couldn't have saved him, though, not in a condition that serious.' He immediately called the police. Police didn't even bother calling a doctor; coroner took him straight to the morgue.",
 		"known": false,
 		"from_specific_question": false,
 		"leads_to": "the_thing_in_the_morgue"
@@ -284,7 +284,7 @@
 	},
 	{
 		"tag": "simpson_reluctantly_admits",
-		"description": "(Pipe, \"The Thing in the Morgue\") Simpson reluctantly admits that nobody can tell yet ex- actly what killed Fink. Not an ordinary weapon, for sure. But even if Preston didn't shoot him, why would he have run if he didn't kill him somehow?",
+		"description": "(Pipe, 'The Thing in the Morgue') Simpson reluctantly admits that nobody can tell yet ex- actly what killed Fink. Not an ordinary weapon, for sure. But even if Preston didn't shoot him, why would he have run if he didn't kill him somehow?",
 		"known": false,
 		"from_specific_question": true,
 		"leads_to": "the_thing_in_the_morgue"
@@ -303,51 +303,51 @@
 	},
 	{
 		"tag": "at_first_they",
-		"description": "(Pipe, “Going on the Grid”) At first they worried they were in for a blackout. The power kept flickering but never actually went off. The last time this happened, it was because a drugstore down the street had installed an entire refrigera- tion section in the back which overloaded the grid. (Violet describes this last with the most hand waving; Williams with the least.)",
+		"description": "(Pipe, 'Going on the Grid') At first they worried they were in for a blackout. The power kept flickering but never actually went off. The last time this happened, it was because a drugstore down the street had installed an entire refrigera- tion section in the back which overloaded the grid. (Violet describes this last with the most hand waving; Williams with the least.)",
 		"known": false,
 		"from_specific_question": false,
 		"leads_to": "going_on_the_grid"
 	},
 	{
 		"tag": "the_sound_might",
-		"description": "The sound might have started as soon as the power began flickering, but they didn’t notice it until they got used to the weird light.",
+		"description": "The sound might have started as soon as the power began flickering, but they didn't notice it until they got used to the weird light.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "everything_stopped_a",
-		"description": "Everything stopped a moment after Fink screamed. The lights came up to full brightness and the... things... vanished. See “August Wil- liams” below.",
+		"description": "Everything stopped a moment after Fink screamed. The lights came up to full brightness and the... things... vanished. See 'August Wil- liams' below.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "anyone_telling_her",
-		"description": "(Core, “The Thing in the Morgue”) Anyone telling her about Fink’s body first glances toward Mr. Simpson, if he is present, and lowers their voice to a conspiratorial whisper. Maybe George killed him, but they don’t see how, because... he was bitten clean in half! Police couldn’t find his midsection or legs anywhere.",
+		"description": "(Core, 'The Thing in the Morgue') Anyone telling her about Fink's body first glances toward Mr. Simpson, if he is present, and lowers their voice to a conspiratorial whisper. Maybe George killed him, but they don't see how, because... he was bitten clean in half! Police couldn't find his midsection or legs anywhere.",
 		"known": false,
 		"from_specific_question": false,
 		"leads_to": "the_thing_in_the_morgue"
 	},
 	{
 		"tag": "minnie_lives_in",
-		"description": "Minnie lives in the apartment across the hall and down one from Fink, on the other side from George Preston’s place.",
+		"description": "Minnie lives in the apartment across the hall and down one from Fink, on the other side from George Preston's place.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "until_mr_fink",
-		"description": "Until Mr. Fink screamed, she thought she was falling asleep. It gets lonely in the building at night, if she doesn’t go out to the pictures or the diner, and sometimes she just dozes off.",
+		"description": "Until Mr. Fink screamed, she thought she was falling asleep. It gets lonely in the building at night, if she doesn't go out to the pictures or the diner, and sometimes she just dozes off.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "strangely_once_the",
-		"description": "Strangely, once the power started going, Minnie felt like the whole world had gone silent. No noise of the city, just the buzzing of the electric light. It didn’t feel bad, though, just peaceful, but then the sound started.",
+		"description": "Strangely, once the power started going, Minnie felt like the whole world had gone silent. No noise of the city, just the buzzing of the electric light. It didn't feel bad, though, just peaceful, but then the sound started.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "the_sound_made",
-		"description": "The sound made her think of a piano that’s gone out of tune. It wasn’t like a piano’s music, but that way something just feels off and you want to scream or pull out your hair rather than listen to it any more. She had a neighbor in Albany who played her piano day and night, and it grated at her nerves something awful.",
+		"description": "The sound made her think of a piano that's gone out of tune. It wasn't like a piano's music, but that way something just feels off and you want to scream or pull out your hair rather than listen to it any more. She had a neighbor in Albany who played her piano day and night, and it grated at her nerves something awful.",
 		"known": false,
 		"from_specific_question": false
 	},
@@ -359,37 +359,37 @@
 	},
 	{
 		"tag": "he_heard_the",
-		"description": "He heard the sound just like the others say, but that’s not all that happened.",
+		"description": "He heard the sound just like the others say, but that's not all that happened.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "after_a_few",
-		"description": "After a few minutes of it, he went out to find Simpson and complain about the problem with the power. People keep inventing all these newfangled devices without thinking about whether there’s enough power to go around. Should be a law.",
+		"description": "After a few minutes of it, he went out to find Simpson and complain about the problem with the power. People keep inventing all these newfangled devices without thinking about whether there's enough power to go around. Should be a law.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "he_couldnt_find",
-		"description": "He couldn’t find Simpson, as usual. When he had almost gotten back to his room, he saw the first... thing. It made him think of a living blimp, floating gently. He slammed and locked he door to his room, but it passed through the wall, almost as though it weren’t made of real stuff. For a few minutes, he sat paralyzed on the bed, watching things like the blimp float or mosey by. Then, right before Fink screamed, he saw something else — like a soap bubble but with claws for arms and what looked like tentacles. He’d have screamed too, if he weren’t too scared to breathe. Its hideous teeth opened — Fink screamed and it moved through the wall into Fink’s room instead. A moment later, it vanished. Everything went back to normal.",
+		"description": "He couldn't find Simpson, as usual. When he had almost gotten back to his room, he saw the first... thing. It made him think of a living blimp, floating gently. He slammed and locked he door to his room, but it passed through the wall, almost as though it weren't made of real stuff. For a few minutes, he sat paralyzed on the bed, watching things like the blimp float or mosey by. Then, right before Fink screamed, he saw something else — like a soap bubble but with claws for arms and what looked like tentacles. He'd have screamed too, if he weren't too scared to breathe. Its hideous teeth opened — Fink screamed and it moved through the wall into Fink's room instead. A moment later, it vanished. Everything went back to normal.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "violet_lives_at",
-		"description": "Violet lives at the far end of the hall, nearest the stairs. Assess Honesty gets the sense that, other than the problem with the power, she didn’t experience much of what the others describe. Instead, she piggybacks off their statement so people will listen to her. Viv has encountered the type before in her work.",
+		"description": "Violet lives at the far end of the hall, nearest the stairs. Assess Honesty gets the sense that, other than the problem with the power, she didn't experience much of what the others describe. Instead, she piggybacks off their statement so people will listen to her. Viv has encountered the type before in her work.",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "violet_always_had",
-		"description": "Violet always had George figured for the screwy type. Too quiet, always lost in his own world, never really talked to the other tenants. Probably some sort of crazed sex killer, and that’s why he took Fink’s lower half with him. Viv hardly needs an Interpersonal ability to interpret this as “he never paid attention to me.”",
+		"description": "Violet always had George figured for the screwy type. Too quiet, always lost in his own world, never really talked to the other tenants. Probably some sort of crazed sex killer, and that's why he took Fink's lower half with him. Viv hardly needs an Interpersonal ability to interpret this as 'he never paid attention to me.'",
 		"known": false,
 		"from_specific_question": false
 	},
 	{
 		"tag": "growing_serious_violet",
-		"description": "Growing serious, Violet remarks that she’s never seen anything like the expression on Fink’s face. Like something scared him to death before... you know. She couldn’t sleep all that night just thinking about it.",
+		"description": "Growing serious, Violet remarks that she's never seen anything like the expression on Fink's face. Like something scared him to death before... you know. She couldn't sleep all that night just thinking about it.",
 		"known": false,
 		"from_specific_question": false
 	}

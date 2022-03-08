@@ -36,6 +36,42 @@
 		"extra_problem": "big_talker"
 	},
 	{
+		"tag": "catching_the_would_be_intruder", 
+		"name": "Catching the Would-Be Intruder", 
+		"type": "athletics", 
+		"advance": {
+			"threshold": 6, 
+			"description": "You easily get to the stairs before her and force her to talk to you. Invite the player to describe how she gets the jump on Pearl so easily. Move to 'Questioning Pearl.' Earn an Edge: Edge 2, 'Sure-Footed'"
+		}, 
+		"hold": {
+			"lower_threshold": 3, 
+			"upper_threshold": 5, 
+			"description": "By the time you catch up to her on the stairs, she's pulled herself together and attempts to grab the schematics you retrieved from Preston's apartment. This may mean snatching your capacious purse or simply wresting the schematics from your hand. Challenge: 'Hang onto the Clue.'"
+		}, 
+		"setback": {
+			"description": "She runs like a gazelle, and you've had a few too many cigarettes lately. She's out the door, and you know you'll never catch her in the maze of alleys."
+		}, 
+		"extra_problem": "wrenched_ankle"
+	},
+	{
+		"tag": "hang_onto_the_clue", 
+		"name": "Hang Onto the Clue", 
+		"type": "fighting", 
+		"advance": {
+			"threshold": 7, 
+			"description": "Not today, sister! You twist away the schematics while keeping an iron grip on the young woman's wrist. Move to 'Questioning Pearl.' Earn an Edge: Edge 3, 'Pulled it Together'"
+		}, 
+		"hold": {
+			"lower_threshold": 3, 
+			"upper_threshold": 6, 
+			"description": "By the time you catch up to her on the stairs, she's pulled herself together and attempts to grab the schematics you retrieved from Preston's apartment. This may mean snatching your capacious purse or simply wresting the schematics from your hand. Challenge: 'Hang onto the Clue.'"
+		}, 
+		"setback": {
+			"description": "She runs like a gazelle, and you've had a few too many cigarettes lately. She's out the door, and you know you'll never catch her in the maze of alleys."
+		}, 
+		"extra_problem": "wrenched_ankle"
+	},
+	{
 		"tag": "antagonist_reaction_1_challenge",
 		"type": "cool",
 		"advance": {
