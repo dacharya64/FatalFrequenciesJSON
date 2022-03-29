@@ -79,7 +79,7 @@
 			},
 			{
 				"character": "petunia_adams",
-				"relationshp": "boss of",
+				"relationship": "boss of",
 				"valence": "neutral"
 			}
 		]
@@ -103,7 +103,7 @@
 		"knows": ["madame_isis"],
 		"relationships": [{
 			"character": "madame_isis",
-			"relationshp": "devotee of",
+			"relationship": "devotee of",
 			"valence": "positive"
 		}]
 	},
@@ -141,7 +141,7 @@
 		"knows": ["madame_isis"],
 		"relationships": [{
 			"character": "madame_isis",
-			"relationshp": "seeking answers from",
+			"relationship": "seeking answers from",
 			"valence": "positive"
 		}]
 	},
